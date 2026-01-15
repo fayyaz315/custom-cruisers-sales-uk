@@ -1,0 +1,633 @@
+{
+  "base_name": "HELMET LANDCRSR CARBON",
+  "brand_code": "1450",
+  "base_details": {
+    "alerts": {
+      "air_restricted": false,
+      "drop_shipment": false,
+      "freight_collect": false,
+      "hazardous_material": false,
+      "truck_only": false
+    },
+    "barcode": "01002634",
+    "brand_code": "1450",
+    "catalog_codes": "2;3;W",
+    "com_code": "01",
+    "dimensions": {
+      "height": 291,
+      "length": 395,
+      "weight": 2.515,
+      "width": 315
+    },
+    "ean_code": "8053636531730",
+    "eu_harmonized_code": "65061010000",
+    "link": "https://www.partseurope.eu/en/product/01002634",
+    "part_name": "HELMET LANDCRSR CARBON XS",
+    "part_number": "01002634",
+    "product_code": "A",
+    "software_license": false,
+    "sub_com_code": "00",
+    "uom": "EA",
+    "us_harmonized_code": "6506.10.3030",
+    "vendor_part_number": "APAPRLANCARCAR00XS",
+    "warehouse_country": "E",
+    "warehouse_status": "S1"
+  },
+  "base_supplier": {
+    "bullets": [
+      "Innovative flip-up helmet combining design and versatility. Thanks to the free conversion kit, this helmet easily converts from flip-up to dual sport adapting to both touring and off-road use.",
+      "Outer shell construction is made of combination of carbon aramid fiber and latest generation epoxy resin, providing lightness, elasticity and impact resistance.",
+      "Inner shell is made of differentiated density EPS which absorbs and disperses impact energy.",
+      "Visor closure block on the chin guard which with a simple click increases safety and reduces noise even at high speeds.",
+      "Visor is scratch-resistant polycarbonate and retractable internal dark visor stand out can be activated by means of a lever on the left side.",
+      "Fogging problems are avoided thanks to Pinlock® lens included which is easy to instal without need for tools.",
+      "Ventilation system includes front air intakes together with those on chin guard for optimal airflow, while rear extractors favor escape of hot air.",
+      "Equipped with the Advanced Padding System kit allowing customisation of the interior which is made of breathable, hypoallergenic materials and treated with Sanitized®.",
+      "The interior is completely removable and washable.",
+      "Easy Fit system ensures comfortable fit for prescription glass wearers.",
+      "Helmet is equipped with micrometric closure for quick and easy release and is prepared for installation of Bluetooth communication systems."
+    ],
+    "attributes": {
+      "Brand": "PREMIER HELMETS",
+      "Vendor Part Number": "APAPRLANCARCAR00XS",
+      "Base Color": "Gray",
+      "Finish": "Gloss",
+      "Color/Finish": "Gray",
+      "Communicator Compatibility": "Compatible",
+      "Features": "Anti-Fog, Removable Cheek Pads, Removable Liner, Vented",
+      "Gender": "Unisex",
+      "Internal Sun Shield": "Smoke",
+      "Model": "Land Cruiser Carbon",
+      "Product Name": "Helmet",
+      "Shell Material": "Aramid Fiber, Carbon Fiber",
+      "Size": "XS",
+      "Size Group": "Adult",
+      "Type": "Street, Modular",
+      "Units": "Each"
+    },
+    "hasVariants": true,
+    "variantOptions": []
+  },
+  "variants": [
+    {
+      "part_number": "01002634",
+      "size": "XS",
+      "color": null,
+      "price": 440.7,
+      "cost": 264.42,
+      "stock": 2,
+      "media": {
+        "documents": [],
+        "images": [
+          {
+            "primary": true,
+            "uri": "https://media.partseurope.eu/parts/8d15c8915a3ee36df5f15f0403cf3039.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/9905469badf6002915fdc4b0ed0dc7db.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/fbca500d2f163e5789bd931fbc25da06.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/f757d06e37373673edd7880e148f6bac.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/ea118f4b2ee09daad57f77067fe269ad.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/e3929e1c0639946e56be6a0368680321.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/e2164be55991fa0dbc3cdc132d2253c1.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/d4ee40fd70efcd29310d5210579628b0.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/d08ec7f4e04ae15679b9e660bd95ab36.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/c55d37d45380043cb335e355097e58e6.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/c45b9e810d9f450a8547c287bdcad906.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/bd1883f91037e3c297ef1c091efc1b4a.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/054775d10c74dbbf1c2acb2be52f199b.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/576f1fcc61607d62ca36275ac5780226.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/4e5a0d663dada2e89456b3f965783e25.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/4c5184dec75f54579d44dc3f3feb0b15.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/46eda14434514b141c584f6289e65cf4.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/3168dcb7254ce3a4149f8c0fe915c52e.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/204d730fa6753dbdafad65bacbbd5586.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/190740ffaf6725a428150f8db12ed65d.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/14cf0d565840c87de4e4637aca325a30.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/1431c6c30cd4a792b8d062f98e9bd2a7.webp"
+          }
+        ],
+        "part_number": "01002634",
+        "videos": []
+      },
+      "fitments": {
+        "fitments": [],
+        "has_next_page": false,
+        "page": 1
+      },
+      "details": {
+        "alerts": {
+          "air_restricted": false,
+          "drop_shipment": false,
+          "freight_collect": false,
+          "hazardous_material": false,
+          "truck_only": false
+        },
+        "barcode": "01002634",
+        "brand_code": "1450",
+        "catalog_codes": "2;3;W",
+        "com_code": "01",
+        "dimensions": {
+          "height": 291,
+          "length": 395,
+          "weight": 2.515,
+          "width": 315
+        },
+        "ean_code": "8053636531730",
+        "eu_harmonized_code": "65061010000",
+        "link": "https://www.partseurope.eu/en/product/01002634",
+        "part_name": "HELMET LANDCRSR CARBON XS",
+        "part_number": "01002634",
+        "product_code": "A",
+        "software_license": false,
+        "sub_com_code": "00",
+        "uom": "EA",
+        "us_harmonized_code": "6506.10.3030",
+        "vendor_part_number": "APAPRLANCARCAR00XS",
+        "warehouse_country": "E",
+        "warehouse_status": "S1"
+      }
+    },
+    {
+      "part_number": "01002635",
+      "size": "SM",
+      "color": null,
+      "price": 440.7,
+      "cost": 264.42,
+      "stock": 2,
+      "media": {
+        "documents": [],
+        "images": [
+          {
+            "primary": true,
+            "uri": "https://media.partseurope.eu/parts/8d15c8915a3ee36df5f15f0403cf3039.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/9905469badf6002915fdc4b0ed0dc7db.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/fbca500d2f163e5789bd931fbc25da06.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/f757d06e37373673edd7880e148f6bac.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/ea118f4b2ee09daad57f77067fe269ad.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/e3929e1c0639946e56be6a0368680321.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/e2164be55991fa0dbc3cdc132d2253c1.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/d4ee40fd70efcd29310d5210579628b0.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/d08ec7f4e04ae15679b9e660bd95ab36.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/c55d37d45380043cb335e355097e58e6.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/c45b9e810d9f450a8547c287bdcad906.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/bd1883f91037e3c297ef1c091efc1b4a.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/054775d10c74dbbf1c2acb2be52f199b.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/576f1fcc61607d62ca36275ac5780226.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/4e5a0d663dada2e89456b3f965783e25.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/4c5184dec75f54579d44dc3f3feb0b15.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/46eda14434514b141c584f6289e65cf4.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/3168dcb7254ce3a4149f8c0fe915c52e.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/204d730fa6753dbdafad65bacbbd5586.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/190740ffaf6725a428150f8db12ed65d.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/14cf0d565840c87de4e4637aca325a30.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/1431c6c30cd4a792b8d062f98e9bd2a7.webp"
+          }
+        ],
+        "part_number": "01002635",
+        "videos": []
+      },
+      "fitments": {
+        "fitments": [],
+        "has_next_page": false,
+        "page": 1
+      },
+      "details": {
+        "alerts": {
+          "air_restricted": false,
+          "drop_shipment": false,
+          "freight_collect": false,
+          "hazardous_material": false,
+          "truck_only": false
+        },
+        "barcode": "01002635",
+        "brand_code": "1450",
+        "catalog_codes": "2;3;W",
+        "com_code": "01",
+        "dimensions": {
+          "height": 287,
+          "length": 396,
+          "weight": 2.475,
+          "width": 317
+        },
+        "ean_code": "8053636531716",
+        "eu_harmonized_code": "65061010000",
+        "link": "https://www.partseurope.eu/en/product/01002635",
+        "part_name": "HELMET LANDCRSR CARBON SM",
+        "part_number": "01002635",
+        "product_code": "A",
+        "software_license": false,
+        "sub_com_code": "00",
+        "uom": "EA",
+        "us_harmonized_code": "6506.10.3030",
+        "vendor_part_number": "APAPRLANCARCAR000S",
+        "warehouse_country": "E",
+        "warehouse_status": "S1"
+      }
+    },
+    {
+      "part_number": "01002636",
+      "size": "MD",
+      "color": null,
+      "price": 440.7,
+      "cost": 264.42,
+      "stock": 3,
+      "media": {
+        "documents": [],
+        "images": [
+          {
+            "primary": true,
+            "uri": "https://media.partseurope.eu/parts/8d15c8915a3ee36df5f15f0403cf3039.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/9905469badf6002915fdc4b0ed0dc7db.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/fbca500d2f163e5789bd931fbc25da06.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/f757d06e37373673edd7880e148f6bac.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/ea118f4b2ee09daad57f77067fe269ad.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/e3929e1c0639946e56be6a0368680321.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/e2164be55991fa0dbc3cdc132d2253c1.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/d4ee40fd70efcd29310d5210579628b0.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/d08ec7f4e04ae15679b9e660bd95ab36.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/c55d37d45380043cb335e355097e58e6.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/c45b9e810d9f450a8547c287bdcad906.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/bd1883f91037e3c297ef1c091efc1b4a.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/054775d10c74dbbf1c2acb2be52f199b.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/576f1fcc61607d62ca36275ac5780226.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/4e5a0d663dada2e89456b3f965783e25.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/4c5184dec75f54579d44dc3f3feb0b15.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/46eda14434514b141c584f6289e65cf4.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/3168dcb7254ce3a4149f8c0fe915c52e.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/204d730fa6753dbdafad65bacbbd5586.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/190740ffaf6725a428150f8db12ed65d.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/14cf0d565840c87de4e4637aca325a30.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/1431c6c30cd4a792b8d062f98e9bd2a7.webp"
+          }
+        ],
+        "part_number": "01002636",
+        "videos": []
+      },
+      "fitments": {
+        "fitments": [],
+        "has_next_page": false,
+        "page": 1
+      },
+      "details": {
+        "alerts": {
+          "air_restricted": false,
+          "drop_shipment": false,
+          "freight_collect": false,
+          "hazardous_material": false,
+          "truck_only": false
+        },
+        "barcode": "01002636",
+        "brand_code": "1450",
+        "catalog_codes": "2;3;W",
+        "com_code": "01",
+        "dimensions": {
+          "height": 287,
+          "length": 397,
+          "weight": 2.455,
+          "width": 317
+        },
+        "ean_code": "8053636531709",
+        "eu_harmonized_code": "65061010000",
+        "link": "https://www.partseurope.eu/en/product/01002636",
+        "part_name": "HELMET LANDCRSR CARBON MD",
+        "part_number": "01002636",
+        "product_code": "A",
+        "software_license": false,
+        "sub_com_code": "00",
+        "uom": "EA",
+        "us_harmonized_code": "6506.10.3030",
+        "vendor_part_number": "APAPRLANCARCAR000M",
+        "warehouse_country": "E",
+        "warehouse_status": "S1"
+      }
+    },
+    {
+      "part_number": "01002637",
+      "size": "LG",
+      "color": null,
+      "price": 440.7,
+      "cost": 264.42,
+      "stock": 9,
+      "media": {
+        "documents": [],
+        "images": [
+          {
+            "primary": true,
+            "uri": "https://media.partseurope.eu/parts/8d15c8915a3ee36df5f15f0403cf3039.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/9905469badf6002915fdc4b0ed0dc7db.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/fbca500d2f163e5789bd931fbc25da06.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/f757d06e37373673edd7880e148f6bac.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/ea118f4b2ee09daad57f77067fe269ad.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/e3929e1c0639946e56be6a0368680321.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/e2164be55991fa0dbc3cdc132d2253c1.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/d4ee40fd70efcd29310d5210579628b0.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/d08ec7f4e04ae15679b9e660bd95ab36.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/c55d37d45380043cb335e355097e58e6.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/c45b9e810d9f450a8547c287bdcad906.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/bd1883f91037e3c297ef1c091efc1b4a.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/054775d10c74dbbf1c2acb2be52f199b.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/576f1fcc61607d62ca36275ac5780226.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/4e5a0d663dada2e89456b3f965783e25.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/4c5184dec75f54579d44dc3f3feb0b15.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/46eda14434514b141c584f6289e65cf4.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/3168dcb7254ce3a4149f8c0fe915c52e.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/204d730fa6753dbdafad65bacbbd5586.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/190740ffaf6725a428150f8db12ed65d.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/14cf0d565840c87de4e4637aca325a30.webp"
+          },
+          {
+            "primary": false,
+            "uri": "https://media.partseurope.eu/parts/1431c6c30cd4a792b8d062f98e9bd2a7.webp"
+          }
+        ],
+        "part_number": "01002637",
+        "videos": []
+      },
+      "fitments": {
+        "fitments": [],
+        "has_next_page": false,
+        "page": 1
+      },
+      "details": {
+        "alerts": {
+          "air_restricted": false,
+          "drop_shipment": false,
+          "freight_collect": false,
+          "hazardous_material": false,
+          "truck_only": false
+        },
+        "barcode": "01002637",
+        "brand_code": "1450",
+        "catalog_codes": "2;3;W",
+        "com_code": "01",
+        "dimensions": {
+          "height": 297,
+          "length": 398,
+          "weight": 2.624,
+          "width": 317
+        },
+        "ean_code": "8053636531693",
+        "eu_harmonized_code": "65061010000",
+        "link": "https://www.partseurope.eu/en/product/01002637",
+        "part_name": "HELMET LANDCRSR CARBON LG",
+        "part_number": "01002637",
+        "product_code": "A",
+        "software_license": false,
+        "sub_com_code": "00",
+        "uom": "EA",
+        "us_harmonized_code": "6506.10.3030",
+        "vendor_part_number": "APAPRLANCARCAR000L",
+        "warehouse_country": "E",
+        "warehouse_status": "S1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+node fetchBrands.js
+node fetchParts.js
+node fetchVehicles.js
+
+node fetchPartDetails.js
+node fetchPartMedia.js
+
+
+
+node fetchPricesBatch.js
+node fetchAvailabilityBatch.js
+node fetchPartFitments.js
+
+
+node fetchPricesBatch.js
+node fetchAvailabilityBatch.js
+
+node fetchPartFitments.js
+
+node fetchBrandDetails.js
+node fetchVehicleDetails.js
