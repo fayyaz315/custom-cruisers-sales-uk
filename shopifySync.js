@@ -24,7 +24,6 @@ const SHOPIFY_API_VERSION = "2024-01"
 const DATA_DIR = path.join(__dirname, "data")
 const PARTS_FILE = path.join(DATA_DIR, `parts-${env}.json`)
 const BRANDS_FILE = path.join(DATA_DIR, `brands-${env}.json`)
-// const PROGRESS_FILE = path.join(DATA_DIR, "sync-progress.json")
 const CURRENT_PRODUCT_FILE = path.join(DATA_DIR, "current-product.json")
 
 async function getProgressFromDB() {
@@ -49,7 +48,6 @@ async function saveProgressToDB(index, partNumber) {
     { upsert: true }
   )
 }
-
 
 // Settings
 const DELAY_BETWEEN_PARTS = 3000
@@ -317,7 +315,7 @@ async function uploadProductToShopify(productGroup) {
   const tags = generateTags({ details: productGroup.base_details, supplier: productGroup.base_supplier })
   const productType = getProductType({ details: productGroup.base_details })
   
-  // DEDUPLICATE VARIANTS - Remove duplicates based on size/color combination
+  // DEDUPLICATE VARIANTS
   const uniqueVariants = []
   const variantKeys = new Set()
   
@@ -471,35 +469,35 @@ async function uploadProductToShopify(productGroup) {
 }
 
 // ============================================================================
-// MAIN SYNC FUNCTION (exported for use in app.js)
+// MAIN SYNC FUNCTION
 // ============================================================================
 
 async function syncToShopify() {
   const allParts = readJSON(PARTS_FILE)
+  const progress = await getProgressFromDB()
+  
   if (!allParts || allParts.length === 0) {
     console.error("❌ No parts found!")
     return { complete: true, last_part_number: progress.last_part_number }
   }
   
-    const progress = await getProgressFromDB()
-    const startIndex = progress.last_index
+  const startIndex = progress.last_index
   
   if (startIndex >= allParts.length) {
     console.log("✅ All parts have been processed!")
-   return { complete: true, last_part_number: progress.last_part_number }
+    return { complete: true, last_part_number: progress.last_part_number }
   }
   
   let currentProduct = readJSON(CURRENT_PRODUCT_FILE)
   const { access_token, token_type } = await getAccessToken()
   
-  let index = startIndex
+  const index = startIndex
   const startTime = Date.now()
-  
   const part = allParts[index]
   
   try {
     const elapsed = (Date.now() - startTime) / 1000 || 1
-    const rate = (index - startIndex + 1) / elapsed || 1
+    const rate = 1 / elapsed || 1
     const remaining = allParts.length - index
     const eta = remaining / rate
     
@@ -524,6 +522,7 @@ async function syncToShopify() {
         (size || color)
       
       if (shouldGroupAsVariant) {
+        // Add variant to current product (don't save progress yet)
         currentProduct.variants.push({
           part_number: partData.part_number,
           size,
@@ -536,18 +535,50 @@ async function syncToShopify() {
           details: partData.details
         })
         console.log(`  ✓ Added as variant #${currentProduct.variants.length}`)
+        
+        // Save current product to file but DON'T save progress to DB yet
+        saveJSON(CURRENT_PRODUCT_FILE, currentProduct)
+        
       } else {
+        // Different product - upload current product first
         console.log(`  → Uploading previous product...`)
+        
         try {
           await uploadProductToShopify(currentProduct)
           console.log(`  ✓ Uploaded!\n`)
+          
+          // ONLY save progress AFTER successful upload
+          await saveProgressToDB(index, part.part_number)
+          console.log(`  💾 Progress saved → Index: ${index} | Part: ${part.part_number}`)
+          
           await delay(DELAY_AFTER_UPLOAD)
+          
         } catch (e) {
           console.log(`  ✗ Upload failed: ${e.message}`)
           if (e.response && e.response.data) {
             console.log(`  Details: ${JSON.stringify(e.response.data.errors)}`)
           }
+          
+          // Check for daily limit error
+          if (e.response && e.response.data && e.response.data.product) {
+            const errorMsg = JSON.stringify(e.response.data.product)
+            if (errorMsg.includes('Daily variant creation limit')) {
+              console.log(`  🛑 Shopify daily variant limit reached. Stopping sync.`)
+              return { 
+                complete: false, 
+                dailyLimitReached: true,
+                progress: index, 
+                total: allParts.length, 
+                error: 'Daily variant creation limit reached' 
+              }
+            }
+          }
+          
+          // Don't save progress on failure - will retry this part next time
+          console.log(`  ⚠️  Progress NOT saved - will retry this part`)
         }
+        
+        // Start new product
         currentProduct = {
           base_name: baseName,
           brand_code: partData.details.brand_code,
@@ -566,8 +597,11 @@ async function syncToShopify() {
           }]
         }
         console.log(`  ✓ Started new product`)
+        saveJSON(CURRENT_PRODUCT_FILE, currentProduct)
       }
+      
     } else {
+      // First product
       currentProduct = {
         base_name: baseName,
         brand_code: partData.details.brand_code,
@@ -586,23 +620,26 @@ async function syncToShopify() {
         }]
       }
       console.log(`  ✓ Started new product`)
+      saveJSON(CURRENT_PRODUCT_FILE, currentProduct)
     }
-    
-    saveJSON(CURRENT_PRODUCT_FILE, currentProduct)
-    await saveProgressToDB(index + 1, part.part_number)
     
     return { 
       complete: false, 
-      progress: index + 1, 
+      progress: index, 
       total: allParts.length,
       last_part_number: part.part_number
     }
     
   } catch (e) {
-    console.log(`  ✗ Failed: ${e.message}\n`)
-    await saveProgressToDB(index + 1, part.part_number)
-    return { complete: false, progress: index + 1, total: allParts.length, error: e.message }
+    console.log(`  ✗ Failed to fetch: ${e.message}\n`)
+    // Don't save progress on fetch failure either
+    return { 
+      complete: false, 
+      progress: index, 
+      total: allParts.length, 
+      error: e.message 
+    }
   }
 }
-module.exports = { syncToShopify }
 
+module.exports = { syncToShopify }
