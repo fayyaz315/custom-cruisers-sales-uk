@@ -494,8 +494,6 @@ async function syncToShopify() {
   const index = startIndex
   const startTime = Date.now()
   const part = allParts[index]
-  
-  // ✅ FIX: Get part_number from the part object
   const partNumber = part.part_number || part
   
   try {
@@ -556,20 +554,30 @@ async function syncToShopify() {
             console.log(`  Details: ${JSON.stringify(e.response.data.errors)}`)
           }
           
-          if (e.response && e.response.data && e.response.data.product) {
-            const errorMsg = JSON.stringify(e.response.data.product)
-            if (errorMsg.includes('Daily variant creation limit')) {
-              console.log(`  🛑 Shopify daily variant limit reached. Stopping sync.`)
-              return { 
-                complete: false, 
-                dailyLimitReached: true,
-                progress: index, 
-                total: allParts.length, 
-                error: 'Daily variant creation limit reached' 
-              }
+          // ✅ FIX: Check for daily limit and STOP immediately
+          const errorDetails = e.response?.data?.product || e.response?.data?.errors || []
+          const errorMsg = JSON.stringify(errorDetails)
+          
+          if (errorMsg.includes('Daily variant creation limit') || errorMsg.includes('daily variant limit')) {
+            console.log(`\n🛑 SHOPIFY DAILY VARIANT LIMIT REACHED`)
+            console.log(`   The sync will automatically resume tomorrow.`)
+            console.log(`   Current progress has been saved.`)
+            console.log(`   Resume from: Index ${index} | Part: ${partNumber}\n`)
+            
+            // Keep the current product for retry tomorrow
+            saveJSON(CURRENT_PRODUCT_FILE, currentProduct)
+            
+            return { 
+              complete: false, 
+              dailyLimitReached: true,
+              progress: index, 
+              total: allParts.length,
+              last_part_number: partNumber,
+              error: 'Daily variant creation limit reached. Please retry tomorrow.' 
             }
           }
           
+          // For other errors, log but continue
           console.log(`  ⚠️  Upload failed but continuing...`)
         }
         
@@ -628,11 +636,9 @@ async function syncToShopify() {
     }
     
   } catch (e) {
-    // ✅ FIX: Skip failed parts and move to next one
     console.log(`  ✗ Failed to fetch: ${e.message}`)
     console.log(`  ⚠️  Skipping part ${partNumber} and moving to next...`)
     
-    // Save progress to skip this part
     await saveProgressToDB(index + 1, partNumber)
     console.log(`  💾 Progress saved (skipped) → Index: ${index + 1} | Part: ${partNumber}`)
     
