@@ -522,7 +522,7 @@ async function syncToShopify() {
         (size || color)
       
       if (shouldGroupAsVariant) {
-        // Add variant to current product (don't save progress yet)
+        // Add variant to current product
         currentProduct.variants.push({
           part_number: partData.part_number,
           size,
@@ -536,8 +536,13 @@ async function syncToShopify() {
         })
         console.log(`  ✓ Added as variant #${currentProduct.variants.length}`)
         
-        // Save current product to file but DON'T save progress to DB yet
+        // Save current product to file
         saveJSON(CURRENT_PRODUCT_FILE, currentProduct)
+        
+        // ✅ CRITICAL FIX: Save progress when adding variant
+        // This moves us to the next part so we don't fetch the same part again
+        await saveProgressToDB(index + 1, part.part_number)
+        console.log(`  💾 Progress saved (variant added) → Index: ${index + 1} | Part: ${part.part_number}`)
         
       } else {
         // Different product - upload current product first
@@ -547,9 +552,10 @@ async function syncToShopify() {
           await uploadProductToShopify(currentProduct)
           console.log(`  ✓ Uploaded!\n`)
           
-          // ONLY save progress AFTER successful upload
+          // Save progress AFTER successful upload
+          // We save 'index' not 'index + 1' because we haven't processed current part yet
           await saveProgressToDB(index, part.part_number)
-          console.log(`  💾 Progress saved → Index: ${index} | Part: ${part.part_number}`)
+          console.log(`  💾 Progress saved (product uploaded) → Index: ${index} | Part: ${part.part_number}`)
           
           await delay(DELAY_AFTER_UPLOAD)
           
@@ -578,7 +584,7 @@ async function syncToShopify() {
           console.log(`  ⚠️  Progress NOT saved - will retry this part`)
         }
         
-        // Start new product
+        // Start new product with the CURRENT part
         currentProduct = {
           base_name: baseName,
           brand_code: partData.details.brand_code,
@@ -596,12 +602,16 @@ async function syncToShopify() {
             details: partData.details
           }]
         }
-        console.log(`  ✓ Started new product`)
+        console.log(`  ✓ Started new product with current part`)
         saveJSON(CURRENT_PRODUCT_FILE, currentProduct)
+        
+        // ✅ CRITICAL FIX: Save progress for the current part we just added
+        await saveProgressToDB(index + 1, part.part_number)
+        console.log(`  💾 Progress saved (new product started) → Index: ${index + 1} | Part: ${part.part_number}`)
       }
       
     } else {
-      // First product
+      // First product - start with current part
       currentProduct = {
         base_name: baseName,
         brand_code: partData.details.brand_code,
@@ -619,20 +629,24 @@ async function syncToShopify() {
           details: partData.details
         }]
       }
-      console.log(`  ✓ Started new product`)
+      console.log(`  ✓ Started first product`)
       saveJSON(CURRENT_PRODUCT_FILE, currentProduct)
+      
+      // ✅ CRITICAL FIX: Save progress for first part
+      await saveProgressToDB(index + 1, part.part_number)
+      console.log(`  💾 Progress saved (first product) → Index: ${index + 1} | Part: ${part.part_number}`)
     }
     
     return { 
       complete: false, 
-      progress: index, 
+      progress: index + 1, 
       total: allParts.length,
       last_part_number: part.part_number
     }
     
   } catch (e) {
     console.log(`  ✗ Failed to fetch: ${e.message}\n`)
-    // Don't save progress on fetch failure either
+    // Don't save progress on fetch failure - will retry same part
     return { 
       complete: false, 
       progress: index, 
@@ -643,3 +657,4 @@ async function syncToShopify() {
 }
 
 module.exports = { syncToShopify }
+

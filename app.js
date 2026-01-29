@@ -86,7 +86,7 @@ async function start() {
     })
 
     // Start infinite worker loop
-    // runShopifySyncLoop()
+     runShopifySyncLoop()
 
   } catch (err) {
     console.error("Startup error:", err)
