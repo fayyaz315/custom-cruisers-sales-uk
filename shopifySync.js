@@ -495,6 +495,9 @@ async function syncToShopify() {
   const startTime = Date.now()
   const part = allParts[index]
   
+  // ✅ FIX: Get part_number from the part object
+  const partNumber = part.part_number || part
+  
   try {
     const elapsed = (Date.now() - startTime) / 1000 || 1
     const rate = 1 / elapsed || 1
@@ -502,9 +505,9 @@ async function syncToShopify() {
     const eta = remaining / rate
     
     console.log(`[${index + 1}/${allParts.length}] (${((index / allParts.length) * 100).toFixed(2)}%) - ETA: ${(eta / 3600).toFixed(1)}h`)
-    console.log(`Fetching ${part.part_number}...`)
+    console.log(`Fetching ${partNumber}...`)
     
-    const partData = await fetchPartData(access_token, token_type, part.part_number)
+    const partData = await fetchPartData(access_token, token_type, partNumber)
     const { baseName, size, color } = parseProductNameAndVariant(partData.details.part_name)
     
     console.log(`  → ${baseName}${size ? ` (${size})` : ''}${color ? ` (${color})` : ''}`)
@@ -522,9 +525,8 @@ async function syncToShopify() {
         (size || color)
       
       if (shouldGroupAsVariant) {
-        // Add variant to current product
         currentProduct.variants.push({
-          part_number: partData.part_number,
+          part_number: partNumber,
           size,
           color,
           price: partData.price.retail_price || 0,
@@ -536,27 +538,16 @@ async function syncToShopify() {
         })
         console.log(`  ✓ Added as variant #${currentProduct.variants.length}`)
         
-        // Save current product to file
         saveJSON(CURRENT_PRODUCT_FILE, currentProduct)
-        
-        // ✅ CRITICAL FIX: Save progress when adding variant
-        // This moves us to the next part so we don't fetch the same part again
-        await saveProgressToDB(index + 1, part.part_number)
-        console.log(`  💾 Progress saved (variant added) → Index: ${index + 1} | Part: ${part.part_number}`)
+        await saveProgressToDB(index + 1, partNumber)
+        console.log(`  💾 Progress saved (variant) → Index: ${index + 1} | Part: ${partNumber}`)
         
       } else {
-        // Different product - upload current product first
         console.log(`  → Uploading previous product...`)
         
         try {
           await uploadProductToShopify(currentProduct)
           console.log(`  ✓ Uploaded!\n`)
-          
-          // Save progress AFTER successful upload
-          // We save 'index' not 'index + 1' because we haven't processed current part yet
-          await saveProgressToDB(index, part.part_number)
-          console.log(`  💾 Progress saved (product uploaded) → Index: ${index} | Part: ${part.part_number}`)
-          
           await delay(DELAY_AFTER_UPLOAD)
           
         } catch (e) {
@@ -565,7 +556,6 @@ async function syncToShopify() {
             console.log(`  Details: ${JSON.stringify(e.response.data.errors)}`)
           }
           
-          // Check for daily limit error
           if (e.response && e.response.data && e.response.data.product) {
             const errorMsg = JSON.stringify(e.response.data.product)
             if (errorMsg.includes('Daily variant creation limit')) {
@@ -580,18 +570,16 @@ async function syncToShopify() {
             }
           }
           
-          // Don't save progress on failure - will retry this part next time
-          console.log(`  ⚠️  Progress NOT saved - will retry this part`)
+          console.log(`  ⚠️  Upload failed but continuing...`)
         }
         
-        // Start new product with the CURRENT part
         currentProduct = {
           base_name: baseName,
           brand_code: partData.details.brand_code,
           base_details: partData.details,
           base_supplier: partData.supplier,
           variants: [{
-            part_number: partData.part_number,
+            part_number: partNumber,
             size,
             color,
             price: partData.price.retail_price || 0,
@@ -602,23 +590,20 @@ async function syncToShopify() {
             details: partData.details
           }]
         }
-        console.log(`  ✓ Started new product with current part`)
+        console.log(`  ✓ Started new product`)
         saveJSON(CURRENT_PRODUCT_FILE, currentProduct)
-        
-        // ✅ CRITICAL FIX: Save progress for the current part we just added
-        await saveProgressToDB(index + 1, part.part_number)
-        console.log(`  💾 Progress saved (new product started) → Index: ${index + 1} | Part: ${part.part_number}`)
+        await saveProgressToDB(index + 1, partNumber)
+        console.log(`  💾 Progress saved (new product) → Index: ${index + 1} | Part: ${partNumber}`)
       }
       
     } else {
-      // First product - start with current part
       currentProduct = {
         base_name: baseName,
         brand_code: partData.details.brand_code,
         base_details: partData.details,
         base_supplier: partData.supplier,
         variants: [{
-          part_number: partData.part_number,
+          part_number: partNumber,
           size,
           color,
           price: partData.price.retail_price || 0,
@@ -631,26 +616,31 @@ async function syncToShopify() {
       }
       console.log(`  ✓ Started first product`)
       saveJSON(CURRENT_PRODUCT_FILE, currentProduct)
-      
-      // ✅ CRITICAL FIX: Save progress for first part
-      await saveProgressToDB(index + 1, part.part_number)
-      console.log(`  💾 Progress saved (first product) → Index: ${index + 1} | Part: ${part.part_number}`)
+      await saveProgressToDB(index + 1, partNumber)
+      console.log(`  💾 Progress saved (first product) → Index: ${index + 1} | Part: ${partNumber}`)
     }
     
     return { 
       complete: false, 
       progress: index + 1, 
       total: allParts.length,
-      last_part_number: part.part_number
+      last_part_number: partNumber
     }
     
   } catch (e) {
-    console.log(`  ✗ Failed to fetch: ${e.message}\n`)
-    // Don't save progress on fetch failure - will retry same part
+    // ✅ FIX: Skip failed parts and move to next one
+    console.log(`  ✗ Failed to fetch: ${e.message}`)
+    console.log(`  ⚠️  Skipping part ${partNumber} and moving to next...`)
+    
+    // Save progress to skip this part
+    await saveProgressToDB(index + 1, partNumber)
+    console.log(`  💾 Progress saved (skipped) → Index: ${index + 1} | Part: ${partNumber}`)
+    
     return { 
       complete: false, 
-      progress: index, 
+      progress: index + 1, 
       total: allParts.length, 
+      skipped: true,
       error: e.message 
     }
   }
