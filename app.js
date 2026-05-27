@@ -238,7 +238,7 @@ async function start() {
       "🚀 Starting inventory pipeline..."
     )
 
-    runInventoryPipeline()
+    // runInventoryPipeline()
   } catch (error) {
     logSection(
       "STARTUP ERROR"
