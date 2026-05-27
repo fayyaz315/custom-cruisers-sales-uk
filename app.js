@@ -4,92 +4,179 @@ const express = require("express")
 const cors = require("cors")
 const mongoose = require("mongoose")
 
-const { syncToShopify } = require("./sync-to-shopify")
-const SyncProgress = require("./models/SyncProgress")
+const fetchAvailabilityUpdates =
+  require("./fetchAvailabilityUpdates")
+
+const fetchAvailabilityDetails =
+  require("./fetchAvailabilityDetails")
+
+const exportShopifyInventory =
+  require("./exportShopifyInventory")
+
+const createInventoryUpdateJsonl =
+  require("./createInventoryUpdateJsonl")
+
+const runInventoryBulkUpdate =
+  require("./runInventoryBulkUpdate")
 
 const app = express()
+
 app.use(cors())
 app.use(express.json())
 
-const PORT = process.env.NODE_ENV === "production" ? process.env.PORT : 3000
+const PORT =
+  process.env.NODE_ENV ===
+  "production"
+    ? process.env.PORT
+    : 3000
 
-let dailyLimitReached = false
-let nextResumeTime = null
+function logSection(title) {
+  console.log(
+    "\n" + "=".repeat(100)
+  )
+
+  console.log(`🚀 ${title}`)
+
+  console.log(
+    "=".repeat(100)
+  )
+}
+
+function logStep(step) {
+  console.log(
+    "\n" + "-".repeat(100)
+  )
+
+  console.log(`🔄 ${step}`)
+
+  console.log(
+    "-".repeat(100)
+  )
+}
+
+function sleep(ms) {
+  return new Promise(resolve =>
+    setTimeout(resolve, ms)
+  )
+}
 
 // ----------------------------------------------------
-// CONTINUOUS SHOPIFY SYNC LOOP
+// INVENTORY PIPELINE
 // ----------------------------------------------------
-async function runShopifySyncLoop() {
-  console.log('\n' + '='.repeat(60))
-  console.log('🚀 SHOPIFY SYNC WORKER STARTED')
-  console.log('='.repeat(60))
-  console.log(`📅 Started at: ${new Date().toLocaleString()}`)
-  console.log('='.repeat(60) + '\n')
-
+async function runInventoryPipeline() {
   while (true) {
+    const startedAt =
+      Date.now()
+
     try {
-      // Check if we're waiting for daily limit reset
-      if (dailyLimitReached && nextResumeTime) {
-        if (Date.now() < nextResumeTime) {
-          const hoursLeft = (nextResumeTime - Date.now()) / (1000 * 60 * 60)
-          console.log(`⏸️  Waiting for daily limit reset... ${hoursLeft.toFixed(1)}h remaining`)
-          await new Promise(r => setTimeout(r, 60 * 60 * 1000)) // Wait 1 hour and check again
-          continue
-        } else {
-          // Time to resume
-          console.log('\n' + '='.repeat(60))
-          console.log('🔄 AUTO-RESUMING AFTER DAILY LIMIT RESET')
-          console.log('='.repeat(60) + '\n')
-          dailyLimitReached = false
-          nextResumeTime = null
-        }
+      logSection(
+        "INVENTORY PIPELINE STARTED"
+      )
+
+      // ----------------------------------------------------
+      // STEP 1
+      // ----------------------------------------------------
+      logStep(
+        "STEP 1 - FETCHING AVAILABILITY UPDATES"
+      )
+
+      await fetchAvailabilityUpdates()
+
+      // ----------------------------------------------------
+      // STEP 2
+      // ----------------------------------------------------
+      logStep(
+        "STEP 2 - FETCHING PART DETAILS"
+      )
+
+      await fetchAvailabilityDetails()
+
+      // ----------------------------------------------------
+      // STEP 3
+      // ----------------------------------------------------
+      logStep(
+        "STEP 3 - EXPORTING SHOPIFY INVENTORY"
+      )
+
+      await exportShopifyInventory()
+
+      // ----------------------------------------------------
+      // STEP 4
+      // ----------------------------------------------------
+      logStep(
+        "STEP 4 - CREATING INVENTORY UPDATE JSONL"
+      )
+
+      await createInventoryUpdateJsonl()
+
+      // ----------------------------------------------------
+      // STEP 5
+      // ----------------------------------------------------
+      logStep(
+        "STEP 5 - RUNNING BULK INVENTORY UPDATE"
+      )
+
+      await runInventoryBulkUpdate()
+
+      // ----------------------------------------------------
+      // FINISHED
+      // ----------------------------------------------------
+      const duration =
+        (
+          (Date.now() -
+            startedAt) /
+          1000
+        ).toFixed(2)
+
+      logSection(
+        "PIPELINE COMPLETED"
+      )
+
+      console.log(
+        `✅ Total duration: ${duration}s`
+      )
+
+      console.log(
+        "\n⏳ Waiting 5 minutes before next cycle...\n"
+      )
+
+      await sleep(
+        5 * 60 * 1000
+      )
+    } catch (error) {
+      logSection(
+        "PIPELINE ERROR"
+      )
+
+      console.log(
+        `❌ ${error.message}`
+      )
+
+      if (
+        error.response?.data
+      ) {
+        console.log(
+          JSON.stringify(
+            error.response.data,
+            null,
+            2
+          )
+        )
       }
 
-      const result = await syncToShopify()
+      if (error.stack) {
+        console.log(
+          "\nSTACK TRACE:\n"
+        )
 
-      if (result.complete) {
-        console.log('\n' + '='.repeat(60))
-        console.log('🎉 ALL PARTS SYNCED!')
-        console.log('='.repeat(60))
-        console.log(`✅ Completed at: ${new Date().toLocaleString()}`)
-        console.log('='.repeat(60) + '\n')
-        
-        // Keep worker alive but idle
-        await new Promise(r => setTimeout(r, 60000))
-        continue
+        console.log(error.stack)
       }
 
-      if (result.dailyLimitReached) {
-        console.log('\n' + '='.repeat(60))
-        console.log('🛑 SHOPIFY DAILY VARIANT LIMIT REACHED')
-        console.log('='.repeat(60))
-        
-        // Calculate tomorrow at 00:01 UTC
-        const now = new Date()
-        const tomorrow = new Date(now)
-        tomorrow.setUTCDate(tomorrow.getUTCDate() + 1)
-        tomorrow.setUTCHours(0, 1, 0, 0)
-        
-        nextResumeTime = tomorrow.getTime()
-        dailyLimitReached = true
-        
-        const hoursUntilResume = (nextResumeTime - Date.now()) / (1000 * 60 * 60)
-        
-        console.log(`⏰ Will auto-resume at: ${tomorrow.toLocaleString()}`)
-        console.log(`⏱️  Time until resume: ${hoursUntilResume.toFixed(1)} hours`)
-        console.log(`📍 Current progress: ${result.progress} / ${result.total}`)
-        console.log(`📦 Last part: ${result.last_part_number}`)
-        console.log('='.repeat(60) + '\n')
-        
-        continue
-      }
+      console.log(
+        "\n⏳ Retrying in 10 seconds...\n"
+      )
 
-      // Normal delay between parts (3 seconds)
-      await new Promise(r => setTimeout(r, 3000))
-
-    } catch (err) {
-      console.error('❌ Sync loop error:', err.message)
-      await new Promise(r => setTimeout(r, 5000)) // wait before retry
+      await sleep(10000)
     }
   }
 }
@@ -97,75 +184,109 @@ async function runShopifySyncLoop() {
 // ----------------------------------------------------
 // HEALTH CHECK
 // ----------------------------------------------------
-app.get("/", async (req, res) => {
-  try {
-    const progress = await SyncProgress.findOne()
-    const percentage = progress ? ((progress.last_index / 133883) * 100).toFixed(2) : 0
-    
-    res.json({
-      status: "running",
-      dailyLimitReached,
-      nextResumeTime: nextResumeTime ? new Date(nextResumeTime).toISOString() : null,
-      progress: {
-        current: progress?.last_index || 0,
-        total: 133883,
-        percentage: `${percentage}%`,
-        lastPart: progress?.last_part_number || null
-      }
-    })
-  } catch (err) {
-    res.status(500).json({ error: err.message })
+app.get(
+  "/",
+  async (req, res) => {
+    try {
+      res.json({
+        status: "running",
+        service:
+          "inventory-sync",
+        startedAt:
+          new Date().toISOString()
+      })
+    } catch (err) {
+      res.status(500).json({
+        error:
+          err.message
+      })
+    }
   }
-})
+)
 
 // ----------------------------------------------------
 // START SERVER
 // ----------------------------------------------------
 async function start() {
   try {
-    // Connect to MongoDB (using your existing variable name)
-    await mongoose.connect(process.env.MONGO_URI)
-    console.log("✅ MongoDB connected")
+    logSection(
+      "APPLICATION STARTING"
+    )
 
-    // Ensure progress document exists
-    let progress = await SyncProgress.findOne()
-    if (!progress) {
-      progress = await SyncProgress.create({
-        last_index: 0,
-        last_part_number: ""
-      })
-      console.log("📝 Created initial progress document")
-    } else {
-      console.log(`📍 Resuming from index: ${progress.last_index}`)
-    }
+    console.log(
+      "📌 Connecting to MongoDB..."
+    )
 
-    // Start Express server
-    app.listen(PORT, () => {
-      console.log(`✅ Server running on port ${PORT}`)
-    })
+    await mongoose.connect(
+      process.env.MONGO_URI
+    )
 
-    // Start infinite worker loop
-    runShopifySyncLoop()
+    console.log(
+      "✅ MongoDB connected"
+    )
 
-  } catch (err) {
-    console.error("❌ Startup error:", err.message)
+    app.listen(
+      PORT,
+      () => {
+        console.log(
+          `✅ Server running on port ${PORT}`
+        )
+      }
+    )
+
+    console.log(
+      "🚀 Starting inventory pipeline..."
+    )
+
+    runInventoryPipeline()
+  } catch (error) {
+    logSection(
+      "STARTUP ERROR"
+    )
+
+    console.log(
+      `❌ ${error.message}`
+    )
+
     process.exit(1)
   }
 }
 
-// Handle graceful shutdown
-process.on('SIGINT', async () => {
-  console.log('\n\n⚠️  Received SIGINT signal')
-  await mongoose.connection.close()
-  console.log('✅ MongoDB connection closed')
-  process.exit(0)
-})
+// ----------------------------------------------------
+// SHUTDOWN
+// ----------------------------------------------------
+process.on(
+  "SIGINT",
+  async () => {
+    logSection(
+      "SIGINT RECEIVED"
+    )
 
-process.on('SIGTERM', async () => {
-  console.log('\n\n⚠️  Received SIGTERM signal')
-  await mongoose.connection.close()
-  console.log('✅ MongoDB connection closed')
-  process.exit(0)
-})
+    await mongoose.connection.close()
+
+    console.log(
+      "✅ MongoDB connection closed"
+    )
+
+    process.exit(0)
+  }
+)
+
+process.on(
+  "SIGTERM",
+  async () => {
+    logSection(
+      "SIGTERM RECEIVED"
+    )
+
+    await mongoose.connection.close()
+
+    console.log(
+      "✅ MongoDB connection closed"
+    )
+
+    process.exit(0)
+  }
+)
 
 start()

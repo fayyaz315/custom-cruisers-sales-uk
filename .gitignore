@@ -8,6 +8,7 @@
 
 # production
 /build
+.jsonl
 
 # misc
 .env
@@ -23,3 +24,6 @@ yarn-error.log*
 
 **/node_modules
 node_modules/
+/data
+*.jsonl
+

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "gid://shopify/TaxonomyCategory/gc",
+    "name": "Gift Cards",
+    "fullName": "Gift Cards",
+    "isLeaf": true
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/na",
+    "name": "Uncategorized",
+    "fullName": "Uncategorized",
+    "isLeaf": true
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/bu",
+    "name": "Bundles",
+    "fullName": "Bundles",
+    "isLeaf": true
+  }
+]

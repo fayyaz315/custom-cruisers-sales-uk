@@ -1,0 +1,37 @@
+[
+  {
+    "id": "gid://shopify/Product/15498206511487",
+    "oldTitle": "STEERING CABLE SEA-DOO",
+    "newTitle": "STEERING CABLE SEA-DOO WSM 00204801",
+    "oldHandle": "steering-cable-sea-doo",
+    "newHandle": "steering-cable-sea-doo-wsm-00204801"
+  },
+  {
+    "id": "gid://shopify/Product/15498206609791",
+    "oldTitle": "STEERING CABLE YAM",
+    "newTitle": "STEERING CABLE YAM WSM 002049",
+    "oldHandle": "steering-cable-yam",
+    "newHandle": "steering-cable-yam-wsm-002049"
+  },
+  {
+    "id": "gid://shopify/Product/15498206675327",
+    "oldTitle": "STEERING CABLE YAMAHA",
+    "newTitle": "STEERING CABLE YAMAHA WSM 002051",
+    "oldHandle": "steering-cable-yamaha",
+    "newHandle": "steering-cable-yamaha-wsm-002051"
+  },
+  {
+    "id": "gid://shopify/Product/15498206773631",
+    "oldTitle": "THROTTLE CABLE YAMAHA",
+    "newTitle": "THROTTLE CABLE YAMAHA WSM 002055",
+    "oldHandle": "throttle-cable-yamaha",
+    "newHandle": "throttle-cable-yamaha-wsm-002055"
+  },
+  {
+    "id": "gid://shopify/Product/15498206871935",
+    "oldTitle": "STEERING CABLE KAW",
+    "newTitle": "STEERING CABLE KAW WSM 002069",
+    "oldHandle": "steering-cable-kaw",
+    "newHandle": "steering-cable-kaw-wsm-002069"
+  }
+]

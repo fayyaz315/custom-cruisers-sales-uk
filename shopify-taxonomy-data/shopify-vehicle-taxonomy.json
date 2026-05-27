@@ -1,0 +1,4574 @@
+[
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-1",
+    "name": "Aircraft Parts & Accessories",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Aircraft Parts & Accessories",
+    "level": 3,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-1",
+    "name": "Battery Management Systems",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Battery Management Systems",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-2",
+    "name": "Charging Cables",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Charging Cables",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-3",
+    "name": "Charging Stations",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Charging Stations",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-4",
+    "name": "Connectors & Adapters",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Connectors & Adapters",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-5-1",
+    "name": "Car EV Conversion Kits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Conversion Kits > Car EV Conversion Kits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-5-2",
+    "name": "Motorcycle EV Conversion Kits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Conversion Kits > Motorcycle EV Conversion Kits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-5-3",
+    "name": "Scooter EV Conversion Kits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Conversion Kits > Scooter EV Conversion Kits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-5-4",
+    "name": "Truck EV Conversion Kits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Conversion Kits > Truck EV Conversion Kits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-5-5",
+    "name": "Van EV Conversion Kits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Conversion Kits > Van EV Conversion Kits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-6",
+    "name": "Electric Vehicle Batteries",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Electric Vehicle Batteries",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-7",
+    "name": "Power Inverters",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Power Inverters",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-8-1",
+    "name": "Adapter Cases",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Protective Cases > Adapter Cases",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-8-2",
+    "name": "Battery Cases",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Protective Cases > Battery Cases",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-8-3",
+    "name": "Charging Cable Cases",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Protective Cases > Charging Cable Cases",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-8-4",
+    "name": "Connector Cases",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Protective Cases > Connector Cases",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-8-5",
+    "name": "Conversion Kit Cases",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Protective Cases > Conversion Kit Cases",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-8-6",
+    "name": "Tool Cases",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Protective Cases > Tool Cases",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-2-9",
+    "name": "Regenerative Braking Modules",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Electric Vehicle (EV) Parts & Accessories > Regenerative Braking Modules",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-1",
+    "name": "Motor Vehicle A/V Players & In-Dash Systems",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle A/V Players & In-Dash Systems",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-10-1",
+    "name": "Dashboard Mounts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Video Monitor Mounts > Dashboard Mounts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-10-2",
+    "name": "Headrest Mounts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Video Monitor Mounts > Headrest Mounts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-10-3",
+    "name": "Overhead Mounts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Video Monitor Mounts > Overhead Mounts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-10-4",
+    "name": "Rearview Mirror Mounts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Video Monitor Mounts > Rearview Mirror Mounts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-10-5",
+    "name": "Seat Mounts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Video Monitor Mounts > Seat Mounts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-10-6",
+    "name": "Sun Visor Mounts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Video Monitor Mounts > Sun Visor Mounts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-10-7",
+    "name": "Windshield Mounts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Video Monitor Mounts > Windshield Mounts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-2",
+    "name": "Motor Vehicle Amplifiers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Amplifiers",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-3",
+    "name": "Motor Vehicle Cassette Adapters",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Cassette Adapters",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-4-1",
+    "name": "Double DIN Cassette Players",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Cassette Players > Double DIN Cassette Players",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-4-2",
+    "name": "Single DIN Cassette Players",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Cassette Players > Single DIN Cassette Players",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-4-3",
+    "name": "Under-Dash Players",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Cassette Players > Under-Dash Players",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-5-1",
+    "name": "Active Crossovers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Equalizers & Crossovers > Active Crossovers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-5-2",
+    "name": "Digital Sound Processors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Equalizers & Crossovers > Digital Sound Processors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-5-3",
+    "name": "Graphic Equalizers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Equalizers & Crossovers > Graphic Equalizers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-5-4",
+    "name": "Parametric Equalizers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Equalizers & Crossovers > Parametric Equalizers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-5-5",
+    "name": "Passive Crossovers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Equalizers & Crossovers > Passive Crossovers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-6-1",
+    "name": "360-Degree Cameras",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Parking Cameras > 360-Degree Cameras",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-6-2",
+    "name": "Backup Cameras",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Parking Cameras > Backup Cameras",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-7",
+    "name": "Motor Vehicle Speakerphones",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Speakerphones",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-8-1",
+    "name": "Coaxial Speakers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Speakers > Coaxial Speakers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-8-2",
+    "name": "Component Speakers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Speakers > Component Speakers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-8-3",
+    "name": "Full-Range Speakers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Speakers > Full-Range Speakers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-8-4",
+    "name": "Mid-Range Speakers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Speakers > Mid-Range Speakers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-8-6",
+    "name": "Tweeters",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Speakers > Tweeters",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-8-7",
+    "name": "Woofers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Speakers > Woofers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-3-9",
+    "name": "Motor Vehicle Subwoofers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Electronics > Motor Vehicle Subwoofers",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-1",
+    "name": "Anti-Lock Braking System (ABS) Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Anti-Lock Braking System (ABS) Parts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-10",
+    "name": "Back Plates",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Back Plates",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-11",
+    "name": "Brake Shoes",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Brake Shoes",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-12",
+    "name": "Wheel Cylinders",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Wheel Cylinders",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-13",
+    "name": "Brake Hoses",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Brake Hoses",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-14",
+    "name": "Brake Light Switches",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Brake Light Switches",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-2",
+    "name": "Brake Boosters",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Brake Boosters",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-3",
+    "name": "Brake Calipers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Brake Calipers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-4",
+    "name": "Brake Fluid",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Brake Fluid",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-5",
+    "name": "Brake Lines",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Brake Lines",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-6",
+    "name": "Brake Master Cylinders",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Brake Master Cylinders",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-7",
+    "name": "Brake Pads",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Brake Pads",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-8",
+    "name": "Brake Rotors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Brake Rotors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-1-9",
+    "name": "Brake Drums",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Braking > Brake Drums",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-10-1",
+    "name": "Carburetors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Fuel Systems > Carburetors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-10-2",
+    "name": "Fuel Caps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Fuel Systems > Fuel Caps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-10-3",
+    "name": "Fuel Filters",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Fuel Systems > Fuel Filters",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-10-4",
+    "name": "Fuel Injectors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Fuel Systems > Fuel Injectors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-10-5",
+    "name": "Fuel Lines",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Fuel Systems > Fuel Lines",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-10-6",
+    "name": "Fuel Pressure Regulators",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Fuel Systems > Fuel Pressure Regulators",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-10-7",
+    "name": "Fuel Pumps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Fuel Systems > Fuel Pumps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-10-8",
+    "name": "Fuel Tanks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Fuel Systems > Fuel Tanks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-10",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-11-1",
+    "name": "Car Mirrors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Interior Fittings > Car Mirrors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-11",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-11-2",
+    "name": "Car Organizers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Interior Fittings > Car Organizers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-11",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-11-3",
+    "name": "Floor Mats",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Interior Fittings > Floor Mats",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-11",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-11-4",
+    "name": "Pedal Sets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Interior Fittings > Pedal Sets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-11",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-11-5",
+    "name": "Seat Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Interior Fittings > Seat Covers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-11",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-11-6",
+    "name": "Steering Wheel Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Interior Fittings > Steering Wheel Covers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-11",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-11-7",
+    "name": "Sun Shades",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Interior Fittings > Sun Shades",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-11",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-12-1",
+    "name": "Fog Lights",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Lighting > Fog Lights",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-12",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-12-2",
+    "name": "Headlights",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Lighting > Headlights",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-12",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-12-3",
+    "name": "Light Bars",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Lighting > Light Bars",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-12",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-12-4",
+    "name": "Light Bulbs",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Lighting > Light Bulbs",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-12",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-12-5",
+    "name": "Light Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Lighting > Light Covers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-12",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-12-6",
+    "name": "Light Switches",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Lighting > Light Switches",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-12",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-12-7",
+    "name": "Tail Lights",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Lighting > Tail Lights",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-12",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-12-8",
+    "name": "Turn Signals",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Lighting > Turn Signals",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-12",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-13",
+    "name": "Motor Vehicle Mirrors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Mirrors",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-14-1",
+    "name": "Alternators",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Power & Electrical Systems > Alternators",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-14",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-14-10",
+    "name": "Ignition Switches",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Power & Electrical Systems > Ignition Switches",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-14",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-14-2",
+    "name": "Batteries",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Power & Electrical Systems > Batteries",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-14",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-14-3",
+    "name": "Fuses",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Power & Electrical Systems > Fuses",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-14",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-14-4",
+    "name": "Relays",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Power & Electrical Systems > Relays",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-14",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-14-5",
+    "name": "Spark Plugs",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Power & Electrical Systems > Spark Plugs",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-14",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-14-6",
+    "name": "Starters",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Power & Electrical Systems > Starters",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-14",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-14-7",
+    "name": "Voltage Regulators",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Power & Electrical Systems > Voltage Regulators",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-14",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-14-8",
+    "name": "Wiring Harnesses",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Power & Electrical Systems > Wiring Harnesses",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-14",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-14-9",
+    "name": "Alternator Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Power & Electrical Systems > Alternator Parts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-14",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-15-1",
+    "name": "Front Seats",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Seating > Front Seats",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-15",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-15-2",
+    "name": "Rear Seats",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Seating > Rear Seats",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-15",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-1",
+    "name": "Fuel Level Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Fuel Level Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-10",
+    "name": "Parking Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Parking Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-11",
+    "name": "Mass Air Flow (MAF) Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Mass Air Flow (MAF) Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-12",
+    "name": "Knock Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Knock Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-13",
+    "name": "Coolant Temperature Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Coolant Temperature Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-14",
+    "name": "Manifold Absolute Pressure (MAP) Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Manifold Absolute Pressure (MAP) Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-15",
+    "name": "Air Intake Temperature Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Air Intake Temperature Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-2",
+    "name": "Odometers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Odometers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-3",
+    "name": "Oxygen Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Oxygen Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-4",
+    "name": "Pressure Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Pressure Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-5",
+    "name": "Speed Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Speed Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-6",
+    "name": "Speedometers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Speedometers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-7",
+    "name": "Tachometers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Tachometers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-8",
+    "name": "Temperature Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Temperature Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-16-9",
+    "name": "Rain Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Sensors & Gauges > Rain Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-16",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-17-1",
+    "name": "Ball Joints",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Suspension Parts > Ball Joints",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-17",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-17-2",
+    "name": "Coil Springs",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Suspension Parts > Coil Springs",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-17",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-17-3",
+    "name": "Control Arms",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Suspension Parts > Control Arms",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-17",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-17-4",
+    "name": "Leaf Springs",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Suspension Parts > Leaf Springs",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-17",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-17-5",
+    "name": "Shock Absorbers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Suspension Parts > Shock Absorbers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-17",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-17-6",
+    "name": "Struts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Suspension Parts > Struts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-17",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-17-7",
+    "name": "Suspension Bushings",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Suspension Parts > Suspension Bushings",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-17",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-17-8",
+    "name": "Sway Bars",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Suspension Parts > Sway Bars",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-17",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-18-1",
+    "name": "Hitch Balls",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Towing > Hitch Balls",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-18",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-18-2",
+    "name": "Hitch Mounts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Towing > Hitch Mounts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-18",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-18-3",
+    "name": "Tow Bars",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Towing > Tow Bars",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-18",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-18-4",
+    "name": "Tow Straps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Towing > Tow Straps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-18",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-18-5",
+    "name": "Trailer Brakes",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Towing > Trailer Brakes",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-18",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-18-6",
+    "name": "Trailer Hitches",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Towing > Trailer Hitches",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-18",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-18-7",
+    "name": "Trailer Lights",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Towing > Trailer Lights",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-18",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-18-8",
+    "name": "Trailer Wiring",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Towing > Trailer Wiring",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-18",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-1",
+    "name": "Axles",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Axles",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-10",
+    "name": "Clutch Slave Cylinders",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Clutch Slave Cylinders",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-11",
+    "name": "CV Joints",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > CV Joints",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-12",
+    "name": "CV Boots",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > CV Boots",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-13",
+    "name": "Flywheels",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Flywheels",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-14",
+    "name": "Clutch Discs",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Clutch Discs",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-15",
+    "name": "Clutch Pressure Plates",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Clutch Pressure Plates",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-16",
+    "name": "Clutch Release Bearings",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Clutch Release Bearings",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-17",
+    "name": "Clutch Lines",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Clutch Lines",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-18",
+    "name": "Transmission Filters",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Transmission Filters",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-19",
+    "name": "Propshafts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Propshafts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-2",
+    "name": "Clutches",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Clutches",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-3",
+    "name": "Differentials",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Differentials",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-4",
+    "name": "Drive Shafts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Drive Shafts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-5",
+    "name": "Transmission Coolers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Transmission Coolers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-6",
+    "name": "Transmission Fluid",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Transmission Fluid",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-7",
+    "name": "Transmission Mounts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Transmission Mounts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-8",
+    "name": "Transmissions",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Transmissions",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-19-9",
+    "name": "Clutch Master Cylinders",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Transmission & Drivetrain Parts > Clutch Master Cylinders",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-19",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-2-1",
+    "name": "Cargo Liners",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Carpet & Upholstery > Cargo Liners",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-2-2",
+    "name": "Carpet Kits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Carpet & Upholstery > Carpet Kits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-2-3",
+    "name": "Console Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Carpet & Upholstery > Console Covers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-2-4",
+    "name": "Dash Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Carpet & Upholstery > Dash Covers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-2-5",
+    "name": "Door Panels",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Carpet & Upholstery > Door Panels",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-2-6",
+    "name": "Headliners",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Carpet & Upholstery > Headliners",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-2-7",
+    "name": "Trunk Mats",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Carpet & Upholstery > Trunk Mats",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-2-8",
+    "name": "Upholstery Fabric",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Carpet & Upholstery > Upholstery Fabric",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-20-1-1",
+    "name": "Automotive Rims & Wheels",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Wheel Systems > Motor Vehicle Rims & Wheels > Automotive Rims & Wheels",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-20-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-20-1-2",
+    "name": "Motorcycle Rims & Wheels",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Wheel Systems > Motor Vehicle Rims & Wheels > Motorcycle Rims & Wheels",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-20-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-20-1-3",
+    "name": "Off-Road and All-Terrain Vehicle Rims & Wheels",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Wheel Systems > Motor Vehicle Rims & Wheels > Off-Road and All-Terrain Vehicle Rims & Wheels",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-20-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-20-2",
+    "name": "Motor Vehicle Tire Accessories",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Wheel Systems > Motor Vehicle Tire Accessories",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-20",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-20-3-1",
+    "name": "Automotive Tires",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Wheel Systems > Motor Vehicle Tires > Automotive Tires",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-20-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-20-3-2",
+    "name": "Motorcycle Tires",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Wheel Systems > Motor Vehicle Tires > Motorcycle Tires",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-20-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-20-3-3",
+    "name": "Off-Road and All-Terrain Vehicle Tires",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Wheel Systems > Motor Vehicle Tires > Off-Road and All-Terrain Vehicle Tires",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-20-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-20-4",
+    "name": "Motor Vehicle Wheel Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Wheel Systems > Motor Vehicle Wheel Parts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-20",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-21-1",
+    "name": "Window Glass",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Window Parts & Accessories > Window Glass",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-21",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-21-2",
+    "name": "Window Regulators",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Window Parts & Accessories > Window Regulators",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-21",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-21-3",
+    "name": "Window Seals",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Window Parts & Accessories > Window Seals",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-21",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-21-4-1",
+    "name": "Wiper Systems",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Window Parts & Accessories > Windshield Wiper Systems & Components > Wiper Systems",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-21-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-21-4-2",
+    "name": "Wiper Blades",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Window Parts & Accessories > Windshield Wiper Systems & Components > Wiper Blades",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-21-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-21-4-3",
+    "name": "Wiper Arms",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Window Parts & Accessories > Windshield Wiper Systems & Components > Wiper Arms",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-21-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-21-4-4",
+    "name": "Wiper Motors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Window Parts & Accessories > Windshield Wiper Systems & Components > Wiper Motors",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-21-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-1",
+    "name": "Radiator Caps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Radiator Caps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-10",
+    "name": "Radiators",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Radiators",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-11",
+    "name": "Radiator Fans",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Radiator Fans",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-12",
+    "name": "Water Pumps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Water Pumps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-13",
+    "name": "Radiator Hoses",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Radiator Hoses",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-2",
+    "name": "Fan Shrouds",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Fan Shrouds",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-3",
+    "name": "Thermostats",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Thermostats",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-4",
+    "name": "Radiator Panels",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Radiator Panels",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-5",
+    "name": "Hose Fittings",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Hose Fittings",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-6",
+    "name": "Radiator Overflow Tanks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Radiator Overflow Tanks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-7",
+    "name": "Water Necks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Water Necks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-8",
+    "name": "Expansion Tanks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Expansion Tanks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-22-9",
+    "name": "Expansion Tank Caps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Cooling Systems > Expansion Tank Caps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-22",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-3-1",
+    "name": "AC Compressors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Climate Control > AC Compressors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-3-2",
+    "name": "AC Condensers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Climate Control > AC Condensers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-3-3",
+    "name": "AC Evaporators",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Climate Control > AC Evaporators",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-3-4",
+    "name": "AC Hoses",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Climate Control > AC Hoses",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-3-5",
+    "name": "Blower Motors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Climate Control > Blower Motors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-3-6",
+    "name": "Climate Control Modules",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Climate Control > Climate Control Modules",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-3-7",
+    "name": "Heater Controls",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Climate Control > Heater Controls",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-3-8",
+    "name": "Heater Cores",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Climate Control > Heater Cores",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-4-1",
+    "name": "Handbrakes",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Controls > Handbrakes",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-4-2",
+    "name": "Pedals",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Controls > Pedals",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-4-3",
+    "name": "Steering Columns",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Controls > Steering Columns",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-4-4",
+    "name": "Steering Pumps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Controls > Steering Pumps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-4-5",
+    "name": "Steering Racks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Controls > Steering Racks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-4-6",
+    "name": "Steering Wheels",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Controls > Steering Wheels",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-5-1",
+    "name": "Oil Coolers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Oil Circulation > Oil Coolers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-5-2",
+    "name": "Oil Dipsticks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Oil Circulation > Oil Dipsticks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-5-3",
+    "name": "Oil Drain Plugs",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Oil Circulation > Oil Drain Plugs",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-5-4",
+    "name": "Oil Filler Caps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Oil Circulation > Oil Filler Caps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-5-5",
+    "name": "Oil Filters",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Oil Circulation > Oil Filters",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-5-6",
+    "name": "Oil Pans",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Oil Circulation > Oil Pans",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-5-7",
+    "name": "Oil Pressure Sensors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Oil Circulation > Oil Pressure Sensors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-5-8",
+    "name": "Oil Pumps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Oil Circulation > Oil Pumps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-1",
+    "name": "Camshafts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Camshafts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-2",
+    "name": "Crankshafts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Crankshafts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-3",
+    "name": "Cylinder Heads",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Cylinder Heads",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-4",
+    "name": "Engine Bearings",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Engine Bearings",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-5-1",
+    "name": "Glow Plugs",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Ignition Components > Glow Plugs",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-5-2",
+    "name": "Ignition Coils",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Ignition Components > Ignition Coils",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-5-3",
+    "name": "Ignition Leads",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Ignition Components > Ignition Leads",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-5-4",
+    "name": "Distributors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Ignition Components > Distributors",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-5-5",
+    "name": "Distributor Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Ignition Components > Distributor Parts",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-6",
+    "name": "Pistons",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Pistons",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-7",
+    "name": "Timing Belts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Timing Belts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-8",
+    "name": "Timing Chains",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Timing Chains",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-6-9",
+    "name": "Valves",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engine Parts > Valves",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-7-1",
+    "name": "Complete Engines",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engines > Complete Engines",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-7-2",
+    "name": "Crate Engines",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engines > Crate Engines",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-7-3",
+    "name": "Engine Mounts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engines > Engine Mounts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-7-4",
+    "name": "Engine Rebuild Kits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engines > Engine Rebuild Kits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-7-5",
+    "name": "Engine Timing Components",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engines > Engine Timing Components",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-7-6",
+    "name": "Engine Valve Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engines > Engine Valve Covers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-7-7",
+    "name": "Long Blocks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engines > Long Blocks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-7-8",
+    "name": "Short Blocks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Engines > Short Blocks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-8",
+    "name": "Motor Vehicle Exhaust",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Exhaust",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-1",
+    "name": "Bumpers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Bumpers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-10",
+    "name": "Gas Struts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Gas Struts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-11",
+    "name": "Door Handles",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Door Handles",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-12",
+    "name": "Side Panels",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Side Panels",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-13",
+    "name": "Door Seals",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Door Seals",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-2",
+    "name": "Doors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Doors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-3",
+    "name": "Fenders",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Fenders",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-4",
+    "name": "Grilles",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Grilles",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-5",
+    "name": "Hoods",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Hoods",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-6",
+    "name": "Quarter Panels",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Quarter Panels",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-7",
+    "name": "Spoilers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Spoilers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-8",
+    "name": "Trunks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Trunks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-4-9-9",
+    "name": "Fuel Doors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Frame & Body Parts > Fuel Doors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-4-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-1",
+    "name": "Portable Fuel Cans",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Portable Fuel Cans",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-1",
+    "name": "Car Wash Brushes",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Car Wash Brushes",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-2-1",
+    "name": "Car Shampoo",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Car Wash Solutions > Car Shampoo",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-2-2",
+    "name": "Waterless Washes",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Car Wash Solutions > Waterless Washes",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-2-3",
+    "name": "Wax Washes",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Car Wash Solutions > Wax Washes",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-2-4",
+    "name": "Wheel Cleaners",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Car Wash Solutions > Wheel Cleaners",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-3-1",
+    "name": "Carpet Cleaners",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Vehicle Carpet & Upholstery Cleaners > Carpet Cleaners",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-3-2",
+    "name": "Stain Removers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Vehicle Carpet & Upholstery Cleaners > Stain Removers",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-3-3",
+    "name": "Upholstery Cleaners",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Vehicle Carpet & Upholstery Cleaners > Upholstery Cleaners",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-4",
+    "name": "Vehicle Fuel Injection Cleaning Kits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Vehicle Fuel Injection Cleaning Kits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-5",
+    "name": "Vehicle Glass Cleaners",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Vehicle Glass Cleaners",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-6-1",
+    "name": "Car Wax",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Vehicle Waxes, Polishes & Protectants > Car Wax",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-6-2",
+    "name": "Polishes",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Vehicle Waxes, Polishes & Protectants > Polishes",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-6-3",
+    "name": "Protectants",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Vehicle Waxes, Polishes & Protectants > Protectants",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-2-6-4",
+    "name": "Sealants",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Cleaning > Vehicle Waxes, Polishes & Protectants > Sealants",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-2-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-3-1",
+    "name": "Golf Cart Enclosures",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Covers > Golf Cart Enclosures",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-3-2",
+    "name": "Motor Vehicle Windshield Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Covers > Motor Vehicle Windshield Covers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-3-3",
+    "name": "Tonneau Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Covers > Tonneau Covers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-3-4",
+    "name": "Vehicle Hardtops",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Covers > Vehicle Hardtops",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-3-5",
+    "name": "Vehicle Soft Tops",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Covers > Vehicle Soft Tops",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-3-6-1",
+    "name": "Automotive Storage Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Covers > Vehicle Storage Covers > Automotive Storage Covers",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-3-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-3-6-2",
+    "name": "Golf Cart Storage Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Covers > Vehicle Storage Covers > Golf Cart Storage Covers",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-3-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-3-6-3",
+    "name": "Motorcycle Storage Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Covers > Vehicle Storage Covers > Motorcycle Storage Covers",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-3-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-3-6-4",
+    "name": "Recreational Vehicle Storage Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Covers > Vehicle Storage Covers > Recreational Vehicle Storage Covers",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-3-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-3-6-5",
+    "name": "Watercraft Storage Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Covers > Vehicle Storage Covers > Watercraft Storage Covers",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-3-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-1",
+    "name": "Bumper Stickers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Bumper Stickers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-10",
+    "name": "Vehicle License Plate Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle License Plate Covers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-11",
+    "name": "Vehicle License Plate Frames",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle License Plate Frames",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-12",
+    "name": "Vehicle License Plate Mounts & Holders",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle License Plate Mounts & Holders",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-13",
+    "name": "Vehicle License Plates",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle License Plates",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-14",
+    "name": "Vehicle Magnets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Magnets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-15",
+    "name": "Vehicle Rear View Mirror Ornaments",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Rear View Mirror Ornaments",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-16",
+    "name": "Vehicle Shift Boots",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Shift Boots",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-17",
+    "name": "Vehicle Shift Knobs",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Shift Knobs",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-18",
+    "name": "Vehicle Steering Wheel Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Steering Wheel Covers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-19",
+    "name": "Vehicle Wraps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Wraps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-2",
+    "name": "Vehicle Air Fresheners",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Air Fresheners",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-3",
+    "name": "Vehicle Antenna Balls",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Antenna Balls",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-4",
+    "name": "Vehicle Dashboard Accessories",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Dashboard Accessories",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-5",
+    "name": "Vehicle Decals",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Decals",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-6",
+    "name": "Vehicle Decor Accessory Sets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Decor Accessory Sets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-7",
+    "name": "Vehicle Display Flags",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Display Flags",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-8",
+    "name": "Vehicle Emblems & Hood Ornaments",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Emblems & Hood Ornaments",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-4-9",
+    "name": "Vehicle Hitch Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor > Vehicle Hitch Covers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-1",
+    "name": "Vehicle Antifreeze",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Antifreeze",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-10",
+    "name": "Vehicle Power Steering Fluid",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Power Steering Fluid",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-11",
+    "name": "Vehicle Transmission Fluid",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Transmission Fluid",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-12",
+    "name": "Vehicle Windshield Fluid",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Windshield Fluid",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-2",
+    "name": "Vehicle Brake Fluid",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Brake Fluid",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-3-1",
+    "name": "Coolant Additives",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Cooling System Additives > Coolant Additives",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-3-2",
+    "name": "Radiator Flushes",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Cooling System Additives > Radiator Flushes",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-3-3",
+    "name": "Radiator Sealers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Cooling System Additives > Radiator Sealers",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-4",
+    "name": "Vehicle Engine Degreasers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Engine Degreasers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-5-1",
+    "name": "Carburetor Cleaners",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Fuel System Cleaners > Carburetor Cleaners",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-5-2",
+    "name": "Complete Fuel System Cleaners",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Fuel System Cleaners > Complete Fuel System Cleaners",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-5-3",
+    "name": "Fuel Injector Cleaners",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Fuel System Cleaners > Fuel Injector Cleaners",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-6",
+    "name": "Vehicle Greases",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Greases",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-7",
+    "name": "Vehicle Hydraulic Clutch Fluid",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Hydraulic Clutch Fluid",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-8-1",
+    "name": "Conventional Motor Oil",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Motor Oil > Conventional Motor Oil",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-8-2",
+    "name": "Semi-Synthetic Motor Oil",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Motor Oil > Semi-Synthetic Motor Oil",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-8-3",
+    "name": "High Mileage Motor Oil",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Motor Oil > High Mileage Motor Oil",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-8-4",
+    "name": "Synthetic Motor Oil",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Motor Oil > Synthetic Motor Oil",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-5-9",
+    "name": "Vehicle Performance Additives",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Fluids > Vehicle Performance Additives",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-6-1",
+    "name": "Motor Vehicle Body Paint",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Paint > Motor Vehicle Body Paint",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-6-2",
+    "name": "Motor Vehicle Brake Caliper Paint",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Paint > Motor Vehicle Brake Caliper Paint",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-1",
+    "name": "Motor Vehicle Brake Service Kits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Motor Vehicle Brake Service Kits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-10",
+    "name": "Windshield Repair Kits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Windshield Repair Kits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-11-1",
+    "name": "Vehicle Lifts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Lifts & Stands > Vehicle Lifts",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7-11",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-11-2",
+    "name": "Vehicle Stands",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Lifts & Stands > Vehicle Stands",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7-11",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-2",
+    "name": "Motor Vehicle Clutch Alignment & Removal Tools",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Motor Vehicle Clutch Alignment & Removal Tools",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-3",
+    "name": "Vehicle Battery Chargers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Battery Chargers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-4",
+    "name": "Vehicle Battery Testers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Battery Testers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-5",
+    "name": "Vehicle Body Filler",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Body Filler",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-6",
+    "name": "Vehicle Diagnostic Scanners",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Diagnostic Scanners",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-7",
+    "name": "Vehicle Jump Starters",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Jump Starters",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-8",
+    "name": "Vehicle Jumper Cables",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Jumper Cables",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1-1",
+    "name": "Bead Breakers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Tire Repair & Tire Changing Tools > Tire Changing Tools > Bead Breakers",
+    "level": 7,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1-2",
+    "name": "Tire Changer Machines",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Tire Repair & Tire Changing Tools > Tire Changing Tools > Tire Changer Machines",
+    "level": 7,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1-3",
+    "name": "Tire Irons",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Tire Repair & Tire Changing Tools > Tire Changing Tools > Tire Irons",
+    "level": 7,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1-4",
+    "name": "Tire Levers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Tire Repair & Tire Changing Tools > Tire Changing Tools > Tire Levers",
+    "level": 7,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1-5",
+    "name": "Tire Spoons",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Tire Repair & Tire Changing Tools > Tire Changing Tools > Tire Spoons",
+    "level": 7,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-5-7-9-2",
+    "name": "Tire Repair Kits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Repair & Specialty Tools > Vehicle Tire Repair & Tire Changing Tools > Tire Repair Kits",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-5-7-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-1",
+    "name": "Motorcycle Chest & Back Protectors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Chest & Back Protectors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-10",
+    "name": "Motorcycle Neck Braces",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Neck Braces",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-2",
+    "name": "Motorcycle Elbow & Wrist Guards",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Elbow & Wrist Guards",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-3",
+    "name": "Motorcycle Gloves",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Gloves",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-4",
+    "name": "Motorcycle Goggles",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Goggles",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-5",
+    "name": "Motorcycle Hand Guards",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Hand Guards",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-6",
+    "name": "Motorcycle Helmet Parts & Accessories",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Helmet Parts & Accessories",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-7-1",
+    "name": "Full Face Helmets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Helmets > Full Face Helmets",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-7-2",
+    "name": "Half Helmets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Helmets > Half Helmets",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-7-3",
+    "name": "Modular Helmets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Helmets > Modular Helmets",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-7-4",
+    "name": "Off-Road Helmets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Helmets > Off-Road Helmets",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-7-5",
+    "name": "Open Face Helmets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Helmets > Open Face Helmets",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-8",
+    "name": "Motorcycle Kidney Belts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Kidney Belts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-1-9",
+    "name": "Motorcycle Knee & Shin Guards",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Motorcycle Protective Gear > Motorcycle Knee & Shin Guards",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-3-1",
+    "name": "Automotive Alarm Accessories",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Alarms & Locks > Automotive Alarm Accessories",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-3-2",
+    "name": "Automotive Alarm Systems",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Alarms & Locks > Automotive Alarm Systems",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-3-3",
+    "name": "Motorcycle Alarms & Locks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Alarms & Locks > Motorcycle Alarms & Locks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-3-4-1",
+    "name": "Vehicle Door Lock Actuators",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Alarms & Locks > Vehicle Door Locks & Parts > Vehicle Door Lock Actuators",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-3-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-3-4-2",
+    "name": "Vehicle Door Lock Knobs",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Alarms & Locks > Vehicle Door Locks & Parts > Vehicle Door Lock Knobs",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-3-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-3-4-3",
+    "name": "Vehicle Door Locks & Locking Systems",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Alarms & Locks > Vehicle Door Locks & Parts > Vehicle Door Locks & Locking Systems",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-3-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-3-5",
+    "name": "Vehicle Hitch Locks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Alarms & Locks > Vehicle Hitch Locks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-3-6",
+    "name": "Vehicle Immobilizers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Alarms & Locks > Vehicle Immobilizers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-3-7",
+    "name": "Vehicle Remote Keyless Systems",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Alarms & Locks > Vehicle Remote Keyless Systems",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-3-8",
+    "name": "Vehicle Steering Wheel Locks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Alarms & Locks > Vehicle Steering Wheel Locks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-3-9",
+    "name": "Vehicle Wheel Clamps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Alarms & Locks > Vehicle Wheel Clamps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-4-1",
+    "name": "Car Window Nets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Safety Equipment > Car Window Nets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-4-10",
+    "name": "Vehicle Wheel Chocks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Safety Equipment > Vehicle Wheel Chocks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-4-2",
+    "name": "Emergency Road Flares",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Safety Equipment > Emergency Road Flares",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-4-3",
+    "name": "Motor Vehicle Airbag Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Safety Equipment > Motor Vehicle Airbag Parts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-4-4",
+    "name": "Motor Vehicle Roll Cages & Bars",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Safety Equipment > Motor Vehicle Roll Cages & Bars",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-4-5",
+    "name": "Vehicle Seat Belt Buckles",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Safety Equipment > Vehicle Seat Belt Buckles",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-4-6",
+    "name": "Vehicle Seat Belt Covers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Safety Equipment > Vehicle Seat Belt Covers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-4-7",
+    "name": "Vehicle Seat Belt Straps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Safety Equipment > Vehicle Seat Belt Straps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-4-8",
+    "name": "Vehicle Seat Belts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Safety Equipment > Vehicle Seat Belts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-4-9",
+    "name": "Vehicle Warning Whips",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Safety Equipment > Vehicle Warning Whips",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-5-1",
+    "name": "Pilot Helmets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Aircraft Protective Gear > Pilot Helmets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-5-2",
+    "name": "Aircraft Safety Flight Suits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Aircraft Protective Gear > Aircraft Safety Flight Suits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-5-3",
+    "name": "Airline Life Vests",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Aircraft Protective Gear > Airline Life Vests",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-5-4",
+    "name": "Aircraft Emergency Parachutes",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Aircraft Protective Gear > Aircraft Emergency Parachutes",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-5-5",
+    "name": "Aircraft Emergency Oxygen Systems",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Aircraft Protective Gear > Aircraft Emergency Oxygen Systems",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-5-6",
+    "name": "Aircraft Anti-G Suits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Aircraft Protective Gear > Aircraft Anti-G Suits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-5-7",
+    "name": "Aircraft Fire Suppression Gear",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Aircraft Protective Gear > Aircraft Fire Suppression Gear",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-6-1",
+    "name": "Distress Beacons and EPIRBs",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Watercraft Safety Equipment > Distress Beacons and EPIRBs",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-6-2",
+    "name": "Emergency Marine Flares",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Watercraft Safety Equipment > Emergency Marine Flares",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-6-3",
+    "name": "Life Rafts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Watercraft Safety Equipment > Life Rafts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-6-4",
+    "name": "Lifebuoys",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Watercraft Safety Equipment > Lifebuoys",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-6-5",
+    "name": "Man Overboard Systems",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Watercraft Safety Equipment > Man Overboard Systems",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-6-6",
+    "name": "Throw Ropes",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Watercraft Safety Equipment > Throw Ropes",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-1",
+    "name": "ATV & UTV Bar Pads",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > ATV & UTV Bar Pads",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-10",
+    "name": "Racing Goggles",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > Racing Goggles",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-11",
+    "name": "Racing Neck Supports",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > Racing Neck Supports",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-12",
+    "name": "Racing Impact Guards",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > Racing Impact Guards",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-13",
+    "name": "Racing Balaclavas",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > Racing Balaclavas",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-14",
+    "name": "Racing Protective Shorts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > Racing Protective Shorts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-15",
+    "name": "Racing Chest Guards",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > Racing Chest Guards",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-2",
+    "name": "ATV & UTV Helmets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > ATV & UTV Helmets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-3",
+    "name": "ATV & UTV Goggles",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > ATV & UTV Goggles",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-4",
+    "name": "ATV & UTV Gloves",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > ATV & UTV Gloves",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-5",
+    "name": "ATV & UTV Body Armor",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > ATV & UTV Body Armor",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-6",
+    "name": "ATV & UTV Boots",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > ATV & UTV Boots",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-7",
+    "name": "Racing Suits",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > Racing Suits",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-8",
+    "name": "Racing Gloves",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > Racing Gloves",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-6-7-9",
+    "name": "Racing Helmets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Off-Road & Motor Sports Vehicle Protective Gear > Racing Helmets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-6-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-1-1",
+    "name": "Roof Cargo Nets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Cargo Nets > Roof Cargo Nets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-1-2",
+    "name": "Truck Bed Cargo Nets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Cargo Nets > Truck Bed Cargo Nets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-1-3",
+    "name": "Trunk Cargo Nets",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Cargo Nets > Trunk Cargo Nets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-2-1",
+    "name": "Vehicle Bicycle Rack Accessories",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Carrying Rack Accessories > Vehicle Bicycle Rack Accessories",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-2-2",
+    "name": "Vehicle Ski & Snowboard Rack Accessories",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Carrying Rack Accessories > Vehicle Ski & Snowboard Rack Accessories",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-3-1",
+    "name": "Vehicle Base Rack Systems",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Carrying Racks > Vehicle Base Rack Systems",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-3-2",
+    "name": "Vehicle Bicycle Racks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Carrying Racks > Vehicle Bicycle Racks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-3-3",
+    "name": "Vehicle Boat Racks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Carrying Racks > Vehicle Boat Racks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-3-4",
+    "name": "Vehicle Cargo Racks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Carrying Racks > Vehicle Cargo Racks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-3-5",
+    "name": "Vehicle Fishing Rod Racks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Carrying Racks > Vehicle Fishing Rod Racks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-3-6",
+    "name": "Vehicle Gun Racks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Carrying Racks > Vehicle Gun Racks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-3-7",
+    "name": "Vehicle Motorcycle & Scooter Racks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Carrying Racks > Vehicle Motorcycle & Scooter Racks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-3-8",
+    "name": "Vehicle Ski & Snowboard Racks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Carrying Racks > Vehicle Ski & Snowboard Racks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-3-9",
+    "name": "Vehicle Water Sport Board Racks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Carrying Racks > Vehicle Water Sport Board Racks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-4",
+    "name": "Motor Vehicle Loading Ramps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Loading Ramps",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-5-1",
+    "name": "Boat Trailers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Trailers > Boat Trailers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-5-2",
+    "name": "Horse & Livestock Trailers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Trailers > Horse & Livestock Trailers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-5-3",
+    "name": "Travel Trailers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Trailers > Travel Trailers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-5-4",
+    "name": "Utility & Cargo Trailers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motor Vehicle Trailers > Utility & Cargo Trailers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-6",
+    "name": "Motorcycle Bags & Panniers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Motorcycle Bags & Panniers",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-7",
+    "name": "Truck Bed Storage Boxes & Organizers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Truck Bed Storage Boxes & Organizers",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-8",
+    "name": "Vehicle Headrest Hangers & Hooks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Vehicle Headrest Hangers & Hooks",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-7-9",
+    "name": "Vehicle Organizers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Storage & Cargo > Vehicle Organizers",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-1-1",
+    "name": "Anchor Chains",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Docking & Anchoring > Anchor Chains",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-1-2",
+    "name": "Anchor Lines & Ropes",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Docking & Anchoring > Anchor Lines & Ropes",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-1-3",
+    "name": "Anchor Windlasses",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Docking & Anchoring > Anchor Windlasses",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-1-4",
+    "name": "Anchors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Docking & Anchoring > Anchors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-1-5",
+    "name": "Boat Hooks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Docking & Anchoring > Boat Hooks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-1-6",
+    "name": "Boat Ladders",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Docking & Anchoring > Boat Ladders",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-1-7",
+    "name": "Dock Cleats",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Docking & Anchoring > Dock Cleats",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-1-8",
+    "name": "Dock Steps",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Docking & Anchoring > Dock Steps",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-2",
+    "name": "Sailboat Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Sailboat Parts",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-3-1",
+    "name": "Watercraft Cleaners",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Care > Watercraft Cleaners",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-3-2",
+    "name": "Watercraft Polishes",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Care > Watercraft Polishes",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-4-1",
+    "name": "Watercraft Alternators",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Engine Parts > Watercraft Alternators",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-4-2",
+    "name": "Watercraft Carburetors & Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Engine Parts > Watercraft Carburetors & Parts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-4-3",
+    "name": "Watercraft Engine Controls",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Engine Parts > Watercraft Engine Controls",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-4-4",
+    "name": "Watercraft Ignition Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Engine Parts > Watercraft Ignition Parts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-4-5",
+    "name": "Watercraft Impellers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Engine Parts > Watercraft Impellers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-4-6",
+    "name": "Watercraft Motor Locks",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Engine Parts > Watercraft Motor Locks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-4-7",
+    "name": "Watercraft Motor Mounts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Engine Parts > Watercraft Motor Mounts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-4-8",
+    "name": "Watercraft Pistons & Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Engine Parts > Watercraft Pistons & Parts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-4-9",
+    "name": "Watercraft Propellers",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Engine Parts > Watercraft Propellers",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-5-1",
+    "name": "Inboard Motors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Engines & Motors > Inboard Motors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-5-2",
+    "name": "Outboard Motors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Engines & Motors > Outboard Motors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-5-3",
+    "name": "Trolling Motors",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Engines & Motors > Trolling Motors",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-5",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-6-1",
+    "name": "Watercraft Manifolds",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Exhaust Parts > Watercraft Manifolds",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-6-2",
+    "name": "Watercraft Mufflers & Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Exhaust Parts > Watercraft Mufflers & Parts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-6",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-7-1",
+    "name": "Watercraft Fuel Lines & Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Fuel Systems > Watercraft Fuel Lines & Parts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-7-2",
+    "name": "Watercraft Fuel Meters",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Fuel Systems > Watercraft Fuel Meters",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-7-3",
+    "name": "Watercraft Fuel Pumps & Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Fuel Systems > Watercraft Fuel Pumps & Parts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-7-4",
+    "name": "Watercraft Fuel Tanks & Parts",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Fuel Systems > Watercraft Fuel Tanks & Parts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-8",
+    "name": "Watercraft Lighting",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Lighting",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-9-1",
+    "name": "Watercraft Steering Cables",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Steering Parts > Watercraft Steering Cables",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-1-8-9-2",
+    "name": "Watercraft Steering Wheels",
+    "fullName": "Vehicles & Parts > Vehicle Parts & Accessories > Watercraft Parts & Accessories > Watercraft Steering Parts > Watercraft Steering Wheels",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-1-8-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-1-1",
+    "name": "Helicopters",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Heavier-Than-Air Aircraft > Helicopters",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-1-10",
+    "name": "Large Jets",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Heavier-Than-Air Aircraft > Large Jets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-1-11",
+    "name": "Long Range Jets",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Heavier-Than-Air Aircraft > Long Range Jets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-1-12",
+    "name": "Light Aircraft",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Heavier-Than-Air Aircraft > Light Aircraft",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-1-2",
+    "name": "Drones",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Heavier-Than-Air Aircraft > Drones",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-1-3",
+    "name": "Ultralights",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Heavier-Than-Air Aircraft > Ultralights",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-1-4",
+    "name": "Autogyros",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Heavier-Than-Air Aircraft > Autogyros",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-1-5",
+    "name": "Gliders",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Heavier-Than-Air Aircraft > Gliders",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-1-6",
+    "name": "Light Jets",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Heavier-Than-Air Aircraft > Light Jets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-1-7",
+    "name": "Very Light Jets",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Heavier-Than-Air Aircraft > Very Light Jets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-1-8",
+    "name": "Mid-Size Jets",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Heavier-Than-Air Aircraft > Mid-Size Jets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-1-9",
+    "name": "Super Mid-Size Jets",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Heavier-Than-Air Aircraft > Super Mid-Size Jets",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-2-1",
+    "name": "Hot Air Balloons",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Lighter-Than-Air Aircraft > Hot Air Balloons",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-1-2-2",
+    "name": "Airships & Dirigibles",
+    "fullName": "Vehicles & Parts > Vehicles > Aircraft > Lighter-Than-Air Aircraft > Airships & Dirigibles",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-1-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-1-1-1",
+    "name": "Battery Electric Vehicles (BEV)",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Electric Vehicles (EV) > Electric Cars > Battery Electric Vehicles (BEV)",
+    "level": 7,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-1-1-2",
+    "name": "Plug-In Hybrid Electric Vehicles (PHEV)",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Electric Vehicles (EV) > Electric Cars > Plug-In Hybrid Electric Vehicles (PHEV)",
+    "level": 7,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-1-2",
+    "name": "Electric Trucks",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Electric Vehicles (EV) > Electric Trucks",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-1-3",
+    "name": "Electric Vans",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Electric Vehicles (EV) > Electric Vans",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-2-1",
+    "name": "Cars",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Non-Electric Vehicles > Cars",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-2-2",
+    "name": "Trucks",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Non-Electric Vehicles > Trucks",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-2-3",
+    "name": "Vans",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Non-Electric Vehicles > Vans",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-3-1",
+    "name": "Hybrid Cars",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Hybrid Vehicles > Hybrid Cars",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-3-2",
+    "name": "Hybrid Trucks",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Hybrid Vehicles > Hybrid Trucks",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-3-3",
+    "name": "Hybrid Vans",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Hybrid Vehicles > Hybrid Vans",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-4-1",
+    "name": "Vintage & Classic Cars",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Vintage & Classic Vehicles > Vintage & Classic Cars",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-4-2",
+    "name": "Vintage & Classic Trucks",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Vintage & Classic Vehicles > Vintage & Classic Trucks",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-1-4-3",
+    "name": "Vintage & Classic Vans",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans > Vintage & Classic Vehicles > Vintage & Classic Vans",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-1-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-2",
+    "name": "Golf Carts",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Golf Carts",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-3-1",
+    "name": "Electric Motorcycles & Scooters",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motorcycles & Scooters > Electric Motorcycles & Scooters",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-3-2",
+    "name": "Non-Electric Motorcycles & Scooters",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motorcycles & Scooters > Non-Electric Motorcycles & Scooters",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-4-1",
+    "name": "ATVs & UTVs",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Off-Road and All-Terrain Vehicles > ATVs & UTVs",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-4-2",
+    "name": "Go Karts & Dune Buggies",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Off-Road and All-Terrain Vehicles > Go Karts & Dune Buggies",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-4-3",
+    "name": "Monster Trucks",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Off-Road and All-Terrain Vehicles > Monster Trucks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-4",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-5",
+    "name": "Recreational Vehicles",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Recreational Vehicles",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-6",
+    "name": "Snowmobiles",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Snowmobiles",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-7-1-1",
+    "name": "City Buses",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Commercial Vehicles > Buses > City Buses",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-7-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-7-1-2",
+    "name": "Coach Buses",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Commercial Vehicles > Buses > Coach Buses",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-7-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-7-1-3",
+    "name": "School Buses",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Commercial Vehicles > Buses > School Buses",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-7-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-7-1-4",
+    "name": "Minibuses",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Commercial Vehicles > Buses > Minibuses",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-7-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-7-1-5",
+    "name": "Double Decker Buses",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Commercial Vehicles > Buses > Double Decker Buses",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-7-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-7-1-6",
+    "name": "Articulated Buses",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Commercial Vehicles > Buses > Articulated Buses",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-7-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-7-1-7",
+    "name": "Trolleybuses",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Commercial Vehicles > Buses > Trolleybuses",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-7-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-7-2",
+    "name": "Taxis",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Commercial Vehicles > Taxis",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-7",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-8-1-1",
+    "name": "Ambulances",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Service & Utility Vehicles > Emergency Vehicles > Ambulances",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-8-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-8-1-2",
+    "name": "Fire Trucks",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Service & Utility Vehicles > Emergency Vehicles > Fire Trucks",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-8-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-8-1-3-1",
+    "name": "Police Cars",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Service & Utility Vehicles > Emergency Vehicles > Police Vehicles > Police Cars",
+    "level": 7,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-8-1-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-8-1-3-2",
+    "name": "Police Trucks",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Service & Utility Vehicles > Emergency Vehicles > Police Vehicles > Police Trucks",
+    "level": 7,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-8-1-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-8-1-3-3",
+    "name": "Police Vans",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Service & Utility Vehicles > Emergency Vehicles > Police Vehicles > Police Vans",
+    "level": 7,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-8-1-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-8-2",
+    "name": "Military Vehicles",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Service & Utility Vehicles > Military Vehicles",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-8",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-1-1",
+    "name": "Drag Racing Cars",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Race Cars > Drag Racing Cars",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-1-2",
+    "name": "Drift Cars",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Race Cars > Drift Cars",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-1-3",
+    "name": "Formula Cars",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Race Cars > Formula Cars",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-1-4",
+    "name": "GT Cars",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Race Cars > GT Cars",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-1-5",
+    "name": "Rally Cars",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Race Cars > Rally Cars",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-1-6",
+    "name": "Sports Prototypes",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Race Cars > Sports Prototypes",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-1-7",
+    "name": "Stock Cars",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Race Cars > Stock Cars",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-1-8",
+    "name": "Touring Cars",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Race Cars > Touring Cars",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9-1",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-2",
+    "name": "Racing Karts",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Racing Karts",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-3-1",
+    "name": "Enduro Bikes",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Racing Motorcycles > Enduro Bikes",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-3-2",
+    "name": "Motocross Bikes",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Racing Motorcycles > Motocross Bikes",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-3-3",
+    "name": "Speedway Bikes",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Racing Motorcycles > Speedway Bikes",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-3-4",
+    "name": "Trials Bikes",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Racing Motorcycles > Trials Bikes",
+    "level": 6,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-4",
+    "name": "Racing Sidecars",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Racing Sidecars",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-2-9-5",
+    "name": "Racing Trucks",
+    "fullName": "Vehicles & Parts > Vehicles > Motor Vehicles > Motor Sports Vehicles > Racing Trucks",
+    "level": 5,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-2-9",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-3-1",
+    "name": "Motor Boats",
+    "fullName": "Vehicles & Parts > Vehicles > Watercraft > Motor Boats",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-3-2",
+    "name": "Personal Watercraft",
+    "fullName": "Vehicles & Parts > Vehicles > Watercraft > Personal Watercraft",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-3-3",
+    "name": "Sailboats",
+    "fullName": "Vehicles & Parts > Vehicles > Watercraft > Sailboats",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-3",
+    "childrenIds": []
+  },
+  {
+    "id": "gid://shopify/TaxonomyCategory/vp-2-3-4",
+    "name": "Yachts",
+    "fullName": "Vehicles & Parts > Vehicles > Watercraft > Yachts",
+    "level": 4,
+    "isLeaf": true,
+    "parentId": "gid://shopify/TaxonomyCategory/vp-2-3",
+    "childrenIds": []
+  }
+]

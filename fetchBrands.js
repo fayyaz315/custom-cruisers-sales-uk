@@ -1,90 +1,176 @@
 const axios = require("axios")
 const fs = require("fs")
 const path = require("path")
+const XLSX = require("xlsx")
 require("dotenv").config()
 
 const { getAccessToken } = require("./auth")
 
-const env = process.env.PARTS_ENV || "sandbox"
+const env = "production"
 
 const API_CONFIG = {
   production: {
-    API_BASE_URL: process.env.PARTS_EUROPE_PROD_API_URL
+    API_BASE_URL:
+      process.env.PARTS_EUROPE_PROD_API_URL
   },
   sandbox: {
-    API_BASE_URL: process.env.PARTS_EUROPE_SANDBOX_API_URL
+    API_BASE_URL:
+      process.env.PARTS_EUROPE_SANDBOX_API_URL
   }
 }[env]
 
-const API_BASE_URL = API_CONFIG.API_BASE_URL
-const DATA_DIR = path.join(__dirname, "data")
-const OUTPUT_FILE = path.join(DATA_DIR, `brands-${env}.json`)
+const API_BASE_URL =
+  API_CONFIG.API_BASE_URL
+
+const DATA_DIR = path.join(
+  __dirname,
+  "data"
+)
+
+const JSON_FILE = path.join(
+  DATA_DIR,
+  `brands-${env}.json`
+)
+
+const EXCEL_FILE = path.join(
+  DATA_DIR,
+  `brands-${env}.xlsx`
+)
 
 async function fetchBrands() {
   if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true })
+    fs.mkdirSync(DATA_DIR, {
+      recursive: true
+    })
   }
 
-  const { access_token, token_type } = await getAccessToken()
+  const {
+    access_token,
+    token_type
+  } = await getAccessToken()
 
   let page = 1
   let hasNextPage = true
   let allBrands = []
-  let totalFetched = 0
-  let firstPrinted = false
 
-  console.log("Fetching brands...")
+  console.log(
+    "Fetching brands from production..."
+  )
 
   while (hasNextPage) {
     const startTime = Date.now()
 
-    const response = await axios.get(
-      `${API_BASE_URL}/v1/brands`,
-      {
-        headers: {
-          Accept: "application/json",
-          Authorization: `${token_type} ${access_token}`
-        },
-        params: {
-          page,
-          limit: 1000
-        },
-        timeout: 30000
-      }
-    )
+    const response =
+      await axios.get(
+        `${API_BASE_URL}/v1/brands`,
+        {
+          headers: {
+            Accept:
+              "application/json",
 
-    const { brands = [], has_next_page } = response.data
+            Authorization:
+              `${token_type} ${access_token}`
+          },
 
-    if (!firstPrinted && brands.length > 0) {
-      console.log("First brand object:")
-      console.log(JSON.stringify(brands[0], null, 2))
-      firstPrinted = true
-    }
+          params: {
+            page,
+            limit: 1000
+          },
+
+          timeout: 30000
+        }
+      )
+
+    const {
+      brands = [],
+      has_next_page
+    } = response.data
 
     allBrands.push(...brands)
-    totalFetched += brands.length
-    hasNextPage = has_next_page
 
-    const duration = ((Date.now() - startTime) / 1000).toFixed(2)
+    const duration =
+      (
+        (Date.now() - startTime) /
+        1000
+      ).toFixed(2)
 
     console.log(
-      `Page ${page} fetched | Records: ${brands.length} | Total: ${totalFetched} | Time: ${duration}s`
+      `Page ${page} fetched | Records: ${brands.length} | Total: ${allBrands.length} | Time: ${duration}s`
     )
+
+    hasNextPage =
+      has_next_page
 
     page++
   }
 
   fs.writeFileSync(
-    OUTPUT_FILE,
-    JSON.stringify(allBrands, null, 2),
+    JSON_FILE,
+    JSON.stringify(
+      allBrands,
+      null,
+      2
+    ),
     "utf8"
   )
 
-  console.log(`All brands saved to ${OUTPUT_FILE}`)
-  console.log(`Total brands collected: ${allBrands.length}`)
+  console.log(
+    `JSON saved: ${JSON_FILE}`
+  )
+
+  const excelRows =
+    allBrands.map(brand => ({
+      id:
+        brand.id || "",
+
+      code:
+        brand.code || "",
+
+      name:
+        brand.name || "",
+
+      display_name:
+        brand.display_name || "",
+
+      slug:
+        brand.slug || ""
+    }))
+
+  const workbook =
+    XLSX.utils.book_new()
+
+  const worksheet =
+    XLSX.utils.json_to_sheet(
+      excelRows
+    )
+
+  XLSX.utils.book_append_sheet(
+    workbook,
+    worksheet,
+    "Brands"
+  )
+
+  XLSX.writeFile(
+    workbook,
+    EXCEL_FILE
+  )
+
+  console.log(
+    `Excel saved: ${EXCEL_FILE}`
+  )
+
+  console.log(
+    `Total brands collected: ${allBrands.length}`
+  )
 }
 
 fetchBrands().catch(error => {
-  console.error("Error while fetching brands")
-  console.error(error.response?.data || error.message)
+  console.error(
+    "Error while fetching brands"
+  )
+
+  console.error(
+    error.response?.data ||
+    error.message
+  )
 })
