@@ -24,9 +24,6 @@ const TOKEN = process.env.SHOPIFY_ACCESS_TOKEN
 const EU_LOCATION_ID =
   process.env.EU_LOCATION_ID
 
-const US_LOCATION_ID =
-  process.env.US_LOCATION_ID
-
 const API_VERSION = "2026-04"
 
 const shopifyClient = axios.create({
@@ -199,8 +196,8 @@ async function fetchShopifyVariant(
 
 async function updateInventory(
   inventoryItemId,
-  euQuantity,
-  usQuantity,
+  totalQuantity,
+  currentQuantity,
   sku
 ) {
   try {
@@ -237,8 +234,6 @@ async function updateInventory(
 
         reason: "correction",
 
-        ignoreCompareQuantity: true,
-
         referenceDocumentUri:
           "logistics://parts-europe/inventory-sync",
 
@@ -250,17 +245,10 @@ async function updateInventory(
               `gid://shopify/Location/${EU_LOCATION_ID}`,
 
             quantity:
-              euQuantity
-          },
+              totalQuantity,
 
-          {
-            inventoryItemId,
-
-            locationId:
-              `gid://shopify/Location/${US_LOCATION_ID}`,
-
-            quantity:
-              usQuantity
+            changeFromQuantity:
+              currentQuantity
           }
         ]
       }
@@ -382,16 +370,16 @@ async function processSku(
       shopifyVariant
         .inventoryItem.id,
 
-      euQuantity,
+      totalQuantity,
 
-      usQuantity,
+      currentQuantity,
 
       sku
     )
 
   if (updated) {
     console.log(
-      `🚀 [${index}/${total}] ${sku} | EU: ${euQuantity} | US: ${usQuantity} | TOTAL: ${totalQuantity} | UPDATED`
+      `🚀 [${index}/${total}] ${sku} | ${currentQuantity} → ${totalQuantity} | UPDATED`
     )
   } else {
     console.log(
