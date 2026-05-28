@@ -40,60 +40,58 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-async function getValidToken() {
+// Makes a Parts Europe API request with automatic token refresh on 401
+// Wrapping all calls through this function ensures token is always valid
+async function partsRequest(sku) {
+  // First attempt
   if (!cachedToken) {
     console.log("🔑 Fetching New Parts Europe Token...")
     cachedToken = await getAccessToken()
   }
 
-  return cachedToken
+  const makeRequest = (token) => {
+    return axios.get(
+      `${API_BASE_URL}/v1/parts/${sku}/availability`,
+      {
+        headers: {
+          Accept: "application/json",
+          Authorization: `${token.token_type} ${token.access_token}`
+        },
+        timeout: 30000
+      }
+    )
+  }
+
+  try {
+    const response = await makeRequest(cachedToken)
+    return response.data
+  } catch (error) {
+    // Token expired — clear cache, refresh, retry once
+    if (error.response?.status === 401) {
+      console.log("🔄 TOKEN EXPIRED | REFRESHING...")
+      cachedToken = null
+      cachedToken = await getAccessToken()
+
+      try {
+        const retryResponse = await makeRequest(cachedToken)
+        return retryResponse.data
+      } catch (retryError) {
+        // If 401 again after refresh, clear token for next call
+        if (retryError.response?.status === 401) {
+          console.log("❌ TOKEN REFRESH FAILED | Will retry on next SKU")
+          cachedToken = null
+        }
+        throw retryError
+      }
+    }
+
+    throw error
+  }
 }
 
 async function fetchPartDetail(sku) {
   try {
-    let { access_token, token_type } = await getValidToken()
-
-    const makeRequest = async () => {
-      return axios.get(
-        `${API_BASE_URL}/v1/parts/${sku}/availability`,
-        {
-          headers: {
-            Accept: "application/json",
-            Authorization: `${token_type} ${access_token}`
-          },
-          timeout: 30000
-        }
-      )
-    }
-
-    try {
-      const response = await makeRequest()
-      return response.data
-    } catch (error) {
-      if (error.response?.status === 401) {
-        console.log("🔄 TOKEN EXPIRED | REFRESHING...")
-
-        cachedToken = null
-        const refreshed = await getValidToken()
-        access_token = refreshed.access_token
-        token_type = refreshed.token_type
-
-        const retryResponse = await axios.get(
-          `${API_BASE_URL}/v1/parts/${sku}/availability`,
-          {
-            headers: {
-              Accept: "application/json",
-              Authorization: `${token_type} ${access_token}`
-            },
-            timeout: 30000
-          }
-        )
-
-        return retryResponse.data
-      }
-
-      throw error
-    }
+    return await partsRequest(sku)
   } catch (error) {
     console.log(`❌ PARTS API ERROR | ${sku}`)
     console.log(error.response?.data || error.message)
@@ -192,13 +190,13 @@ async function updateInventory(
             inventoryItemId,
             locationId: `gid://shopify/Location/${EU_LOCATION_ID}`,
             quantity: euQuantity,
-            changeFromQuantity: null  // null = skip compare-and-swap, always force set
+            changeFromQuantity: null
           },
           {
             inventoryItemId,
             locationId: `gid://shopify/Location/${US_LOCATION_ID}`,
             quantity: usQuantity,
-            changeFromQuantity: null  // null = skip compare-and-swap, always force set
+            changeFromQuantity: null
           }
         ]
       },
