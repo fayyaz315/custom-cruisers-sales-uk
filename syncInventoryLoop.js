@@ -20,7 +20,13 @@ const API_BASE_URL = API_CONFIG.API_BASE_URL
 
 const SHOP = process.env.SHOPIFY_STORE_URL
 const TOKEN = process.env.SHOPIFY_ACCESS_TOKEN
-const LOCATION_ID = process.env.SHOPIFY_LOCATION_ID
+
+const EU_LOCATION_ID =
+  process.env.EU_LOCATION_ID
+
+const US_LOCATION_ID =
+  process.env.US_LOCATION_ID
+
 const API_VERSION = "2026-04"
 
 const shopifyClient = axios.create({
@@ -37,14 +43,20 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-async function fetchPartDetail(accessToken, tokenType, sku) {
+async function fetchPartDetail(
+  accessToken,
+  tokenType,
+  sku
+) {
   try {
     const response = await axios.get(
       `${API_BASE_URL}/v1/parts/${sku}/availability`,
       {
         headers: {
           Accept: "application/json",
-          Authorization: `${tokenType} ${accessToken}`
+
+          Authorization:
+            `${tokenType} ${accessToken}`
         },
 
         timeout: 30000
@@ -55,21 +67,30 @@ async function fetchPartDetail(accessToken, tokenType, sku) {
   } catch (error) {
     console.log(`❌ PARTS API ERROR | ${sku}`)
 
-    console.log(error.response?.data || error.message)
+    console.log(
+      error.response?.data ||
+      error.message
+    )
 
     return null
   }
 }
 
-async function fetchShopifyVariant(sku) {
+async function fetchShopifyVariant(
+  sku
+) {
   try {
     const query = `
       query {
-        productVariants(first: 1, query: "sku:${sku}") {
+        productVariants(
+          first: 1,
+          query: "sku:${sku}"
+        ) {
           edges {
             node {
               id
               sku
+
               inventoryQuantity
 
               inventoryItem {
@@ -85,13 +106,15 @@ async function fetchShopifyVariant(sku) {
       }
     `
 
-    const response = await shopifyClient.post(
-      "",
-      { query }
-    )
+    const response =
+      await shopifyClient.post(
+        "",
+        { query }
+      )
 
     const edges =
-      response.data.data.productVariants.edges
+      response.data.data
+        .productVariants.edges
 
     if (edges.length === 0) {
       return null
@@ -101,7 +124,10 @@ async function fetchShopifyVariant(sku) {
   } catch (error) {
     console.log(`❌ SHOPIFY FETCH ERROR | ${sku}`)
 
-    console.log(error.response?.data || error.message)
+    console.log(
+      error.response?.data ||
+      error.message
+    )
 
     return null
   }
@@ -109,7 +135,8 @@ async function fetchShopifyVariant(sku) {
 
 async function updateInventory(
   inventoryItemId,
-  quantity,
+  euQuantity,
+  usQuantity,
   sku,
   previousQuantity
 ) {
@@ -155,12 +182,26 @@ async function updateInventory(
             inventoryItemId,
 
             locationId:
-              `gid://shopify/Location/${LOCATION_ID}`,
+              `gid://shopify/Location/${EU_LOCATION_ID}`,
 
-            quantity,
+            quantity:
+              euQuantity,
 
             changeFromQuantity:
               previousQuantity
+          },
+
+          {
+            inventoryItemId,
+
+            locationId:
+              `gid://shopify/Location/${US_LOCATION_ID}`,
+
+            quantity:
+              usQuantity,
+
+            changeFromQuantity:
+              0
           }
         ]
       }
@@ -214,7 +255,10 @@ async function updateInventory(
   } catch (error) {
     console.log(`❌ INVENTORY UPDATE ERROR | ${sku}`)
 
-    console.log(error.response?.data || error.message)
+    console.log(
+      error.response?.data ||
+      error.message
+    )
 
     return false
   }
@@ -227,11 +271,12 @@ async function processSku(
   index,
   total
 ) {
-  const partDetail = await fetchPartDetail(
-    accessToken,
-    tokenType,
-    sku
-  )
+  const partDetail =
+    await fetchPartDetail(
+      accessToken,
+      tokenType,
+      sku
+    )
 
   if (!partDetail) {
     console.log(
@@ -241,15 +286,23 @@ async function processSku(
     return
   }
 
-  const newQuantity =
+  const euQuantity =
     partDetail.eu_availability || 0
 
+  const usQuantity =
+    partDetail.us_availability || 0
+
+  const totalQuantity =
+    euQuantity + usQuantity
+
   const shopifyVariant =
-    await fetchShopifyVariant(sku)
+    await fetchShopifyVariant(
+      sku
+    )
 
   if (!shopifyVariant) {
     console.log(
-      `⚠️ [${index}/${total}] ${sku} | Parts: ${newQuantity} | Shopify: NOT FOUND`
+      `⚠️ [${index}/${total}] ${sku} | EU: ${euQuantity} | US: ${usQuantity} | Shopify: NOT FOUND`
     )
 
     return
@@ -258,9 +311,12 @@ async function processSku(
   const currentQuantity =
     shopifyVariant.inventoryQuantity || 0
 
-  if (currentQuantity === newQuantity) {
+  if (
+    currentQuantity ===
+    totalQuantity
+  ) {
     console.log(
-      `✅ [${index}/${total}] ${sku} | Parts: ${newQuantity} | Shopify: ${currentQuantity} | SYNCED`
+      `✅ [${index}/${total}] ${sku} | EU: ${euQuantity} | US: ${usQuantity} | TOTAL: ${totalQuantity} | SYNCED`
     )
 
     return
@@ -268,15 +324,21 @@ async function processSku(
 
   const updated =
     await updateInventory(
-      shopifyVariant.inventoryItem.id,
-      newQuantity,
+      shopifyVariant
+        .inventoryItem.id,
+
+      euQuantity,
+
+      usQuantity,
+
       sku,
+
       currentQuantity
     )
 
   if (updated) {
     console.log(
-      `🚀 [${index}/${total}] ${sku} | ${currentQuantity} → ${newQuantity} | UPDATED`
+      `🚀 [${index}/${total}] ${sku} | EU: ${euQuantity} | US: ${usQuantity} | TOTAL: ${totalQuantity} | UPDATED`
     )
   } else {
     console.log(
@@ -346,11 +408,15 @@ async function startInventoryLoop() {
 
       await sleep(10000)
     } catch (error) {
-      console.log("\n❌ INVENTORY LOOP ERROR")
+      console.log(
+        "\n❌ INVENTORY LOOP ERROR"
+      )
 
       console.log(error.message)
 
-      if (error.response?.data) {
+      if (
+        error.response?.data
+      ) {
         console.log(
           JSON.stringify(
             error.response.data,
@@ -369,4 +435,5 @@ async function startInventoryLoop() {
   }
 }
 
-module.exports = startInventoryLoop
+module.exports =
+  startInventoryLoop
