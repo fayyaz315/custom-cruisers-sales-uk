@@ -260,10 +260,10 @@ async function updateInventory(
 ) {
   try {
     const mutation = `
-      mutation InventorySetQuantities(
-        $input: InventorySetQuantitiesInput!
+      mutation InventoryAdjustQuantities(
+        $input: InventoryAdjustQuantitiesInput!
       ) {
-        inventorySetQuantities(
+        inventoryAdjustQuantities(
           input: $input
         )
         @idempotent(
@@ -286,42 +286,54 @@ async function updateInventory(
       }
     `
 
+    const euDelta =
+      euQuantity -
+      currentEuQuantity
+
+    const usDelta =
+      usQuantity -
+      currentUsQuantity
+
+    const changes = []
+
+    if (euDelta !== 0) {
+      changes.push({
+        inventoryItemId,
+
+        locationId:
+          `gid://shopify/Location/${EU_LOCATION_ID}`,
+
+        delta:
+          euDelta
+      })
+    }
+
+    if (usDelta !== 0) {
+      changes.push({
+        inventoryItemId,
+
+        locationId:
+          `gid://shopify/Location/${US_LOCATION_ID}`,
+
+        delta:
+          usDelta
+      })
+    }
+
+    if (changes.length === 0) {
+      return true
+    }
+
     const variables = {
       input: {
-        name: "available",
-
         reason: "correction",
+
+        name: "available",
 
         referenceDocumentUri:
           "logistics://parts-europe/inventory-sync",
 
-        quantities: [
-          {
-            inventoryItemId,
-
-            locationId:
-              `gid://shopify/Location/${EU_LOCATION_ID}`,
-
-            quantity:
-              euQuantity,
-
-            changeFromQuantity:
-              currentEuQuantity
-          },
-
-          {
-            inventoryItemId,
-
-            locationId:
-              `gid://shopify/Location/${US_LOCATION_ID}`,
-
-            quantity:
-              usQuantity,
-
-            changeFromQuantity:
-              currentUsQuantity
-          }
-        ]
+        changes
       }
     }
 
@@ -354,7 +366,7 @@ async function updateInventory(
 
     const result =
       response.data.data
-        ?.inventorySetQuantities
+        ?.inventoryAdjustQuantities
 
     if (
       result?.userErrors &&
