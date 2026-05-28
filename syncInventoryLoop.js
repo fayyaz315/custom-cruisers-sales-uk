@@ -33,7 +33,7 @@ const EU_LOCATION_ID =
 const US_LOCATION_ID =
   process.env.US_LOCATION_ID
 
-const API_VERSION = "2026-04"
+const API_VERSION = "2026-07"
 
 const shopifyClient = axios.create({
   baseURL:
@@ -171,8 +171,6 @@ async function fetchShopifyVariant(
               id
               sku
 
-              inventoryQuantity
-
               inventoryItem {
                 id
               }
@@ -238,7 +236,6 @@ async function updateInventory(
   inventoryItemId,
   euQuantity,
   usQuantity,
-  currentQuantity,
   sku
 ) {
   try {
@@ -286,10 +283,7 @@ async function updateInventory(
               `gid://shopify/Location/${EU_LOCATION_ID}`,
 
             quantity:
-              euQuantity,
-
-            changeFromQuantity:
-              currentQuantity
+              euQuantity
           },
 
           {
@@ -299,10 +293,7 @@ async function updateInventory(
               `gid://shopify/Location/${US_LOCATION_ID}`,
 
             quantity:
-              usQuantity,
-
-            changeFromQuantity:
-              0
+              usQuantity
           }
         ]
       }
@@ -410,20 +401,6 @@ async function processSku(
     return
   }
 
-  const currentQuantity =
-    shopifyVariant.inventoryQuantity || 0
-
-  if (
-    currentQuantity ===
-    euQuantity
-  ) {
-    console.log(
-      `✅ [${index}/${total}] ${sku} | EU: ${euQuantity} | US: ${usQuantity} | SYNCED`
-    )
-
-    return
-  }
-
   const updated =
     await updateInventory(
       shopifyVariant
@@ -432,8 +409,6 @@ async function processSku(
       euQuantity,
 
       usQuantity,
-
-      currentQuantity,
 
       sku
     )
