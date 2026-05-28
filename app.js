@@ -103,7 +103,7 @@ async function start() {
       "STARTING REALTIME INVENTORY LOOP"
     )
 
-    // startInventoryLoop()
+    startInventoryLoop()
   } catch (error) {
     logSection(
       "STARTUP ERROR"

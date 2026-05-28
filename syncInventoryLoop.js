@@ -40,7 +40,7 @@ function sleep(ms) {
 async function fetchPartDetail(accessToken, tokenType, sku) {
   try {
     const response = await axios.get(
-      `${API_BASE_URL}/v1/parts/${sku}`,
+      `${API_BASE_URL}/v1/parts/${sku}/availability`,
       {
         headers: {
           Accept: "application/json",
@@ -242,7 +242,7 @@ async function processSku(
   }
 
   const newQuantity =
-    partDetail.available_quantity || 0
+    partDetail.eu_availability || 0
 
   const shopifyVariant =
     await fetchShopifyVariant(sku)
