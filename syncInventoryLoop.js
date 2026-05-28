@@ -201,8 +201,7 @@ async function updateInventory(
   inventoryItemId,
   euQuantity,
   usQuantity,
-  sku,
-  previousQuantity
+  sku
 ) {
   try {
     const mutation = `
@@ -238,6 +237,8 @@ async function updateInventory(
 
         reason: "correction",
 
+        ignoreCompareQuantity: true,
+
         referenceDocumentUri:
           "logistics://parts-europe/inventory-sync",
 
@@ -249,10 +250,7 @@ async function updateInventory(
               `gid://shopify/Location/${EU_LOCATION_ID}`,
 
             quantity:
-              euQuantity,
-
-            changeFromQuantity:
-              previousQuantity
+              euQuantity
           },
 
           {
@@ -262,10 +260,7 @@ async function updateInventory(
               `gid://shopify/Location/${US_LOCATION_ID}`,
 
             quantity:
-              usQuantity,
-
-            changeFromQuantity:
-              0
+              usQuantity
           }
         ]
       }
@@ -391,9 +386,7 @@ async function processSku(
 
       usQuantity,
 
-      sku,
-
-      currentQuantity
+      sku
     )
 
   if (updated) {
