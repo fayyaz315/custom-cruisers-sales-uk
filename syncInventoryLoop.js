@@ -171,27 +171,10 @@ async function fetchShopifyVariant(
               id
               sku
 
+              inventoryQuantity
+
               inventoryItem {
                 id
-
-                inventoryLevels(
-                  first: 10
-                ) {
-                  edges {
-                    node {
-                      location {
-                        id
-                        name
-                      }
-
-                      quantities(
-                        names: ["available"]
-                      ) {
-                        quantity
-                      }
-                    }
-                  }
-                }
               }
 
               product {
@@ -255,8 +238,7 @@ async function updateInventory(
   inventoryItemId,
   euQuantity,
   usQuantity,
-  currentEuQuantity,
-  currentUsQuantity,
+  currentQuantity,
   sku
 ) {
   try {
@@ -307,7 +289,7 @@ async function updateInventory(
               euQuantity,
 
             changeFromQuantity:
-              currentEuQuantity
+              currentQuantity
           },
 
           {
@@ -320,7 +302,7 @@ async function updateInventory(
               usQuantity,
 
             changeFromQuantity:
-              currentUsQuantity
+              0
           }
         ]
       }
@@ -428,45 +410,12 @@ async function processSku(
     return
   }
 
-  let currentEuQuantity = 0
-  let currentUsQuantity = 0
-
-  const levels =
-    shopifyVariant
-      .inventoryItem
-      .inventoryLevels
-      .edges
-
-  for (const level of levels) {
-    const locationId =
-      level.node.location.id
-
-    const quantity =
-      level.node.quantities[0]
-        ?.quantity || 0
-
-    if (
-      locationId ===
-      `gid://shopify/Location/${EU_LOCATION_ID}`
-    ) {
-      currentEuQuantity =
-        quantity
-    }
-
-    if (
-      locationId ===
-      `gid://shopify/Location/${US_LOCATION_ID}`
-    ) {
-      currentUsQuantity =
-        quantity
-    }
-  }
+  const currentQuantity =
+    shopifyVariant.inventoryQuantity || 0
 
   if (
-    currentEuQuantity ===
-      euQuantity &&
-    currentUsQuantity ===
-      usQuantity
+    currentQuantity ===
+    euQuantity
   ) {
     console.log(
       `✅ [${index}/${total}] ${sku} | EU: ${euQuantity} | US: ${usQuantity} | SYNCED`
@@ -484,16 +433,14 @@ async function processSku(
 
       usQuantity,
 
-      currentEuQuantity,
-
-      currentUsQuantity,
+      currentQuantity,
 
       sku
     )
 
   if (updated) {
     console.log(
-      `🚀 [${index}/${total}] ${sku} | EU: ${currentEuQuantity} → ${euQuantity} | US: ${currentUsQuantity} → ${usQuantity} | UPDATED`
+      `🚀 [${index}/${total}] ${sku} | EU: ${euQuantity} | US: ${usQuantity} | UPDATED`
     )
   } else {
     console.log(
