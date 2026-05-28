@@ -8,18 +8,24 @@ const env = process.env.PARTS_ENV || "production"
 
 const API_CONFIG = {
   production: {
-    API_BASE_URL: process.env.PARTS_EUROPE_PROD_API_URL
+    API_BASE_URL:
+      process.env.PARTS_EUROPE_PROD_API_URL
   },
 
   sandbox: {
-    API_BASE_URL: process.env.PARTS_EUROPE_SANDBOX_API_URL
+    API_BASE_URL:
+      process.env.PARTS_EUROPE_SANDBOX_API_URL
   }
 }[env]
 
-const API_BASE_URL = API_CONFIG.API_BASE_URL
+const API_BASE_URL =
+  API_CONFIG.API_BASE_URL
 
-const SHOP = process.env.SHOPIFY_STORE_URL
-const TOKEN = process.env.SHOPIFY_ACCESS_TOKEN
+const SHOP =
+  process.env.SHOPIFY_STORE_URL
+
+const TOKEN =
+  process.env.SHOPIFY_ACCESS_TOKEN
 
 const EU_LOCATION_ID =
   process.env.EU_LOCATION_ID
@@ -30,19 +36,26 @@ const US_LOCATION_ID =
 const API_VERSION = "2026-04"
 
 const shopifyClient = axios.create({
-  baseURL: `https://${SHOP}/admin/api/${API_VERSION}/graphql.json`,
+  baseURL:
+    `https://${SHOP}/admin/api/${API_VERSION}/graphql.json`,
+
   timeout: 60000,
 
   headers: {
-    "X-Shopify-Access-Token": TOKEN,
-    "Content-Type": "application/json"
+    "X-Shopify-Access-Token":
+      TOKEN,
+
+    "Content-Type":
+      "application/json"
   }
 })
 
 let cachedToken = null
 
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms))
+  return new Promise(resolve =>
+    setTimeout(resolve, ms)
+  )
 }
 
 async function getValidToken() {
@@ -72,7 +85,8 @@ async function fetchPartDetail(
         `${API_BASE_URL}/v1/parts/${sku}/availability`,
         {
           headers: {
-            Accept: "application/json",
+            Accept:
+              "application/json",
 
             Authorization:
               `${token_type} ${access_token}`
@@ -93,7 +107,7 @@ async function fetchPartDetail(
         error.response?.status === 401
       ) {
         console.log(
-          `🔑 TOKEN EXPIRED | Refreshing token...`
+          "🔑 TOKEN EXPIRED | Refreshing token..."
         )
 
         cachedToken = null
@@ -129,7 +143,9 @@ async function fetchPartDetail(
       throw error
     }
   } catch (error) {
-    console.log(`❌ PARTS API ERROR | ${sku}`)
+    console.log(
+      `❌ PARTS API ERROR | ${sku}`
+    )
 
     console.log(
       error.response?.data ||
@@ -157,27 +173,29 @@ async function fetchShopifyVariant(
 
               inventoryItem {
                 id
+
+                inventoryLevels(
+                  first: 10
+                ) {
+                  edges {
+                    node {
+                      location {
+                        id
+                        name
+                      }
+
+                      quantities(
+                        names: ["available"]
+                      ) {
+                        quantity
+                      }
+                    }
+                  }
+                }
               }
 
               product {
                 title
-              }
-
-              inventoryLevels(first: 10) {
-                edges {
-                  node {
-                    quantities(
-                      names: ["available"]
-                    ) {
-                      quantity
-                    }
-
-                    location {
-                      id
-                      name
-                    }
-                  }
-                }
               }
             }
           }
@@ -191,9 +209,28 @@ async function fetchShopifyVariant(
         { query }
       )
 
+    if (
+      response.data.errors
+    ) {
+      console.log(
+        `❌ SHOPIFY GRAPHQL ERROR | ${sku}`
+      )
+
+      console.log(
+        JSON.stringify(
+          response.data.errors,
+          null,
+          2
+        )
+      )
+
+      return null
+    }
+
     const edges =
       response.data.data
-        .productVariants.edges
+        ?.productVariants
+        ?.edges || []
 
     if (edges.length === 0) {
       return null
@@ -201,7 +238,9 @@ async function fetchShopifyVariant(
 
     return edges[0].node
   } catch (error) {
-    console.log(`❌ SHOPIFY FETCH ERROR | ${sku}`)
+    console.log(
+      `❌ SHOPIFY FETCH ERROR | ${sku}`
+    )
 
     console.log(
       error.response?.data ||
@@ -296,8 +335,12 @@ async function updateInventory(
         }
       )
 
-    if (response.data.errors) {
-      console.log(`❌ GRAPHQL ERROR | ${sku}`)
+    if (
+      response.data.errors
+    ) {
+      console.log(
+        `❌ GRAPHQL ERROR | ${sku}`
+      )
 
       console.log(
         JSON.stringify(
@@ -318,7 +361,9 @@ async function updateInventory(
       result.userErrors &&
       result.userErrors.length > 0
     ) {
-      console.log(`❌ UPDATE FAILED | ${sku}`)
+      console.log(
+        `❌ UPDATE FAILED | ${sku}`
+      )
 
       console.log(
         JSON.stringify(
@@ -333,7 +378,9 @@ async function updateInventory(
 
     return true
   } catch (error) {
-    console.log(`❌ INVENTORY UPDATE ERROR | ${sku}`)
+    console.log(
+      `❌ INVENTORY UPDATE ERROR | ${sku}`
+    )
 
     console.log(
       error.response?.data ||
@@ -375,7 +422,7 @@ async function processSku(
 
   if (!shopifyVariant) {
     console.log(
-      `⚠️ [${index}/${total}] ${sku} | EU: ${euQuantity} | US: ${usQuantity} | Shopify: NOT FOUND`
+      `⚠️ [${index}/${total}] ${sku} | Shopify NOT FOUND`
     )
 
     return
@@ -385,7 +432,10 @@ async function processSku(
   let currentUsQuantity = 0
 
   const levels =
-    shopifyVariant.inventoryLevels.edges
+    shopifyVariant
+      .inventoryItem
+      .inventoryLevels
+      .edges
 
   for (const level of levels) {
     const locationId =
@@ -510,7 +560,9 @@ async function startInventoryLoop() {
         "\n❌ INVENTORY LOOP ERROR"
       )
 
-      console.log(error.message)
+      console.log(
+        error.message
+      )
 
       if (
         error.response?.data
