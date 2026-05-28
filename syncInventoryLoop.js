@@ -173,6 +173,24 @@ async function fetchShopifyVariant(
 
               inventoryItem {
                 id
+
+                inventoryLevels(
+                  first: 20
+                ) {
+                  edges {
+                    node {
+                      location {
+                        id
+                      }
+
+                      quantities(
+                        names: ["available"]
+                      ) {
+                        quantity
+                      }
+                    }
+                  }
+                }
               }
 
               product {
@@ -236,6 +254,8 @@ async function updateInventory(
   inventoryItemId,
   euQuantity,
   usQuantity,
+  currentEuQuantity,
+  currentUsQuantity,
   sku
 ) {
   try {
@@ -283,7 +303,10 @@ async function updateInventory(
               `gid://shopify/Location/${EU_LOCATION_ID}`,
 
             quantity:
-              euQuantity
+              euQuantity,
+
+            changeFromQuantity:
+              currentEuQuantity
           },
 
           {
@@ -293,7 +316,10 @@ async function updateInventory(
               `gid://shopify/Location/${US_LOCATION_ID}`,
 
             quantity:
-              usQuantity
+              usQuantity,
+
+            changeFromQuantity:
+              currentUsQuantity
           }
         ]
       }
@@ -328,10 +354,10 @@ async function updateInventory(
 
     const result =
       response.data.data
-        .inventorySetQuantities
+        ?.inventorySetQuantities
 
     if (
-      result.userErrors &&
+      result?.userErrors &&
       result.userErrors.length > 0
     ) {
       console.log(
@@ -401,6 +427,53 @@ async function processSku(
     return
   }
 
+  let currentEuQuantity = 0
+  let currentUsQuantity = 0
+
+  const levels =
+    shopifyVariant
+      .inventoryItem
+      .inventoryLevels
+      .edges
+
+  for (const level of levels) {
+    const locationId =
+      level.node.location.id
+
+    const quantity =
+      level.node.quantities[0]
+        ?.quantity || 0
+
+    if (
+      locationId ===
+      `gid://shopify/Location/${EU_LOCATION_ID}`
+    ) {
+      currentEuQuantity =
+        quantity
+    }
+
+    if (
+      locationId ===
+      `gid://shopify/Location/${US_LOCATION_ID}`
+    ) {
+      currentUsQuantity =
+        quantity
+    }
+  }
+
+  if (
+    currentEuQuantity ===
+      euQuantity &&
+    currentUsQuantity ===
+      usQuantity
+  ) {
+    console.log(
+      `✅ [${index}/${total}] ${sku} | EU: ${euQuantity} | US: ${usQuantity} | SYNCED`
+    )
+
+    return
+  }
+
   const updated =
     await updateInventory(
       shopifyVariant
@@ -410,12 +483,16 @@ async function processSku(
 
       usQuantity,
 
+      currentEuQuantity,
+
+      currentUsQuantity,
+
       sku
     )
 
   if (updated) {
     console.log(
-      `🚀 [${index}/${total}] ${sku} | EU: ${euQuantity} | US: ${usQuantity} | UPDATED`
+      `🚀 [${index}/${total}] ${sku} | EU: ${currentEuQuantity} → ${euQuantity} | US: ${currentUsQuantity} → ${usQuantity} | UPDATED`
     )
   } else {
     console.log(
