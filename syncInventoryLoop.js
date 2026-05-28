@@ -39,31 +39,95 @@ const shopifyClient = axios.create({
   }
 })
 
+let cachedToken = null
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms))
 }
 
+async function getValidToken() {
+  if (!cachedToken) {
+    console.log(
+      "🔑 Fetching New Parts Europe Token..."
+    )
+
+    cachedToken =
+      await getAccessToken()
+  }
+
+  return cachedToken
+}
+
 async function fetchPartDetail(
-  accessToken,
-  tokenType,
   sku
 ) {
   try {
-    const response = await axios.get(
-      `${API_BASE_URL}/v1/parts/${sku}/availability`,
-      {
-        headers: {
-          Accept: "application/json",
+    let {
+      access_token,
+      token_type
+    } = await getValidToken()
 
-          Authorization:
-            `${tokenType} ${accessToken}`
-        },
+    const makeRequest = async () => {
+      return axios.get(
+        `${API_BASE_URL}/v1/parts/${sku}/availability`,
+        {
+          headers: {
+            Accept: "application/json",
 
-        timeout: 30000
+            Authorization:
+              `${token_type} ${access_token}`
+          },
+
+          timeout: 30000
+        }
+      )
+    }
+
+    try {
+      const response =
+        await makeRequest()
+
+      return response.data
+    } catch (error) {
+      if (
+        error.response?.status === 401
+      ) {
+        console.log(
+          `🔑 TOKEN EXPIRED | Refreshing token...`
+        )
+
+        cachedToken = null
+
+        const refreshed =
+          await getValidToken()
+
+        access_token =
+          refreshed.access_token
+
+        token_type =
+          refreshed.token_type
+
+        const retryResponse =
+          await axios.get(
+            `${API_BASE_URL}/v1/parts/${sku}/availability`,
+            {
+              headers: {
+                Accept:
+                  "application/json",
+
+                Authorization:
+                  `${token_type} ${access_token}`
+              },
+
+              timeout: 30000
+            }
+          )
+
+        return retryResponse.data
       }
-    )
 
-    return response.data
+      throw error
+    }
   } catch (error) {
     console.log(`❌ PARTS API ERROR | ${sku}`)
 
@@ -266,15 +330,11 @@ async function updateInventory(
 
 async function processSku(
   sku,
-  accessToken,
-  tokenType,
   index,
   total
 ) {
   const partDetail =
     await fetchPartDetail(
-      accessToken,
-      tokenType,
       sku
     )
 
@@ -364,11 +424,6 @@ async function startInventoryLoop() {
         "🌍 ===============================================\n"
       )
 
-      const {
-        access_token,
-        token_type
-      } = await getAccessToken()
-
       const skus =
         await fetchAvailabilityUpdates()
 
@@ -383,8 +438,6 @@ async function startInventoryLoop() {
 
         await processSku(
           sku,
-          access_token,
-          token_type,
           processed,
           skus.length
         )
